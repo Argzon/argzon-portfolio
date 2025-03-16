@@ -14,7 +14,7 @@ export default function Home() {
           className="max-w-2xl space-y-6"
         >
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-            Welcome to My Creative Space
+            Welcome to My Website
           </h1>
           <p className="mx-auto max-w-[600px] text-zinc-500 dark:text-zinc-400 md:text-lg">
             I invite you to explore my portfolio on Behance, where I showcase my
