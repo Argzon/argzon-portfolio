@@ -1,28 +1,35 @@
-import { Geist, Geist_Mono } from "next/font/google";
+"use client";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata = {
-  title: "Argzon Haziraj Senior UI/UX Designer & Product Designer",
-  description: "Argzon Haziraj Portfolio",
-};
+import { ThemeProvider } from "next-themes";
+import { useEffect } from "react";
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    // Initialize theme in localStorage if it doesn't exist
+    if (!localStorage.getItem("portfolio-theme")) {
+      localStorage.setItem("portfolio-theme", "system");
+    }
+  }, []);
+
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <head />
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+          storageKey="portfolio-theme"
+          resolver={(theme, systemTheme) => {
+            if (theme === "system") {
+              return systemTheme || "light";
+            }
+            return theme;
+          }}
+        >
+          <main className="bg-surface-primary min-h-screen">{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
