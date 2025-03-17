@@ -1,13 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "Archiv Grotesk";
+  src: url("/fonts/archiv-grotesk/ArchivGrotesk-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @layer base {
   :root {
-    --radius: 0.5rem;
+    --surface-primary: 255 255 255; /* white-100 */
+    --text-primary: 10 14 21; /* black-600 */
+    --text-body: 55 63 78; /* black-300 */
+    --reverse: 255 255 255; /* white-100 */
+  }
+
+  .dark {
+    --surface-primary: 10 14 21; /* black-600 */
+    --text-primary: 255 255 255; /* white-100 */
+    --text-body: 224 228 235; /* white-300 */
+    --reverse: 10 14 21; /* black-600 */
+  }
+
+  /* Headings - Bold (700) */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold -tracking-wider text-primary font-archiv;
+  }
+
+  /* Regular text (400) */
+  p,
+  small,
+  .subtitle,
+  .body,
+  .label,
+  .tooltip {
+    @apply font-normal text-body font-work;
+  }
+
+  /* Typography styles */
+  h1 {
+    @apply text-m-h1 sm:text-d-h1;
+  }
+
+  h2 {
+    @apply text-m-h2 sm:text-d-h2;
+  }
+
+  h3 {
+    @apply text-m-h3 sm:text-d-h3;
+  }
+
+  h4 {
+    @apply text-m-h4 sm:text-d-h4;
+  }
+
+  h5 {
+    @apply text-m-h5 sm:text-d-h5;
+  }
+
+  h6 {
+    @apply text-m-h6 sm:text-d-h6;
+  }
+
+  .subtitle {
+    @apply text-m-subtitle sm:text-d-subtitle;
+  }
+
+  p,
+  .body {
+    @apply text-m-body sm:text-d-body;
+  }
+
+  .label {
+    @apply text-m-label sm:text-d-label;
+  }
+
+  .tooltip {
+    @apply text-m-tooltip sm:text-d-tooltip;
+  }
+}
+
+@layer utilities {
+  .bg-surface-primary {
+    background-color: rgb(var(--surface-primary));
+  }
+
+  .text-primary {
+    color: rgb(var(--text-primary));
+  }
+
+  .text-body {
+    color: rgb(var(--text-body));
+  }
+
+  /* Brand color utilities  */
+  .brand-light {
+    @apply bg-blue-600 dark:bg-blue-100;
+  }
+  .brand-default {
+    @apply bg-blue-500 dark:bg-blue-200;
+  }
+  .brand-dark {
+    @apply bg-blue-400 dark:bg-blue-300;
+  }
+
+  /* Context color utilities */
+  /* green */
+  .green-light {
+    @apply bg-green-600 dark:bg-green-100;
+  }
+  .green-default {
+    @apply bg-green-500 dark:bg-green-200;
+  }
+  .green-dark {
+    @apply bg-green-400 dark:bg-green-300;
+  }
+
+  /* yellow */
+  .yellow-light {
+    @apply bg-yellow-600 dark:bg-yellow-100;
+  }
+  .yellow-default {
+    @apply bg-yellow-500 dark:bg-yellow-200;
+  }
+  .yellow-dark {
+    @apply bg-yellow-400 dark:bg-yellow-300;
+  }
+
+  /* purple */
+  .purple-light {
+    @apply bg-purple-600 dark:bg-purple-100;
+  }
+  .purple-default {
+    @apply bg-purple-500 dark:bg-purple-200;
+  }
+  .purple-dark {
+    @apply bg-purple-400 dark:bg-purple-300;
+  }
+
+  /* red */
+  .red-light {
+    @apply bg-red-600 dark:bg-red-100;
+  }
+  .red-default {
+    @apply bg-red-500 dark:bg-red-200;
+  }
+  .red-dark {
+    @apply bg-red-400 dark:bg-red-300;
   }
 }
