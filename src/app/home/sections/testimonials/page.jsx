@@ -1,3 +1,4 @@
+"use client";
 import testimonialsData from "../../data/testimonials.json";
 import Image from "next/image";
 import { useTheme } from "next-themes";
