@@ -1,12 +1,7 @@
 "use client";
 
-import { ThemeToggle } from "@/components/ThemeToggle/page";
+import Home from "./home/page";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Coming Soon</h1>
-      <ThemeToggle />
-    </div>
-  );
+export default function Page() {
+  return <Home />;
 }
