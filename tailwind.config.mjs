@@ -111,6 +111,19 @@ export default {
         "m-label": ["14px", { lineHeight: "16.8px", letterSpacing: "-0.56px" }],
         "m-tooltip": ["10px", { lineHeight: "12px", letterSpacing: "-0.4px" }],
       },
+      animation: {
+        aurora: "aurora 60s linear infinite",
+      },
+      keyframes: {
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

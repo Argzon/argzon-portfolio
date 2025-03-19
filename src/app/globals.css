@@ -102,6 +102,10 @@
     color: rgb(var(--text-body));
   }
 
+  .reverse {
+    color: rgb(var(--reverse));
+  }
+
   /* Brand color utilities  */
   .brand-light {
     @apply bg-blue-600 dark:bg-blue-100;
