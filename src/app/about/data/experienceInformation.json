@@ -1,0 +1,76 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "period": "08/2023 - 02/2024",
+      "location": "Chicago, United States",
+      "position": "Senior UI/UX Designer",
+      "company": "TalentAlly",
+      "achievements": [
+        "Designed user-centered solutions by translating complex technical and business requirements into intuitive interfaces, driving a 20% increase in user engagement.",
+        "Built a comprehensive, scalable design system in Figma, improving design consistency by 30% and accelerating project delivery timelines by 20%.",
+        "Collaborated with cross-functional teams to streamline design workflows, ensuring seamless integration between design and development, and boosting overall team efficiency."
+      ]
+    },
+    {
+        "id": 2,
+        "period": "05/2022 - 08/2023",
+        "location": "Toronto, Canada",
+        "position": "Design Lead",
+        "company": "Veza Digital",
+        "achievements": [
+          "Directed and delivered 15+ design projects, ensuring on-time completion with a 98% client satisfaction rate and maintaining high-quality standards.",
+          "Collaborated closely with clients to identify design goals, resulting in visually appealing, user-friendly websites that improved engagement metrics by 25%.",
+          "Designed and prototyped websites from concept to completion, demonstrating expertise in information architecture, wireframing, and visual design while aligning with client visions."
+        ]
+      },
+    {
+        "id": 3,
+        "period": "02/2020 - 02/2024",
+        "location": "Hamburg, Germany",
+        "position": "Senior UI/UX Designer",
+        "company": "Nelta",
+        "achievements": [
+          "Directed 20+ end-to-end design projects, ensuring 95% on-time delivery and maintaining budgets, while achieving a 25% increase in client satisfaction.",
+          "Guided cross-functional teams from MVP development to final release, streamlining workflows and improving project efficiency by 30%.",
+          "Partnered with stakeholders to craft user-centered design strategies, enhancing user engagement by 20% and driving consistent client retention."
+        ]
+      },
+    {
+        "id": 4,
+        "period": "11/2012 - 09/2020",
+        "location": "Peje, Kosovo",
+        "position": "Product Designer",
+        "company": "FC Besa",
+        "achievements": [
+          "Designed and launched a dynamic website showcasing FC Besa's brand, achievements, and events, increasing fan engagement by 35%.",
+          "Partnered with management and marketing teams to align the website with the club's identity, boosting community support and promotional success.",
+          "Created interactive features, including player profiles, match highlights, and ticket booking options, enhancing user experience and driving visitor engagement."
+        ]
+      },
+    {
+        "id": 5,
+        "period": "02/2019 - 05/2020",
+        "location": "Peje, Kosovo",
+        "position": "Senior UI/UX Designer",
+        "company": "Dotify",
+        "achievements": [
+          "Designed and delivered 30+ digital products, including WordPress themes and custom web apps, driving a 25% increase in client sales and earning consistent positive feedback.",
+          "Led end-to-end custom website projects, ensuring user-friendly designs and achieving a 100% on-time delivery rate, resulting in a 40% increase in repeat business.",
+          "Streamlined workflows by collaborating with developers and project managers, enhancing project efficiency by 20% and ensuring successful product launches."
+        ]
+      },
+    {
+        "id": 6,
+        "period": "04/2018 - 09/2019",
+        "location": "Peje, Kosovo",
+        "position": "Product Designer",
+        "company": "Packup Logistics",
+        "achievements": [
+          "Designed and launched a logistics management platform, improving operational efficiency by 30% and streamlining workflows for the logistics team.",
+          "Developed a user-friendly mobile app for drivers, optimizing delivery coordination and increasing communication efficiency by 25%.",
+          "Partnered with cross-functional teams to integrate user feedback and data-driven insights, ensuring a cohesive design that enhanced user satisfaction and positioned the company as an industry leader."
+        ]
+      }
+  ]
+}

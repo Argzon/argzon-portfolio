@@ -1,0 +1,28 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "period": "",
+      "location": "",
+      "degree": "Tech Degree in Computer Software Engineering",
+      "school": "Treehouse",
+      "more": ["GPA: Full Stack Engineer"]
+    },
+    {
+      "id": 2,
+      "period": "01/2014 - 01/2019",
+      "location": "Pristina",
+      "degree": "Bachelor's Degree in Information Technology",
+      "school": "UNI- Universum International College",
+      "more": []
+    },
+    {
+      "id": 3,
+      "period": "01/2011 - 01/2014",
+      "location": "Peja",
+      "degree": "Degree in Information Technology and Mathematics",
+      "school": "Gymnasium Bedri Pejani",
+      "more": []
+    }
+  ]
+}

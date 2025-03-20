@@ -1,0 +1,114 @@
+{
+    "skills": [
+      {
+        "category": "UI/UX Design Skills",
+        "items": [
+            "User-Centered Design (UCD)",
+            "Wireframing & Prototyping",
+            "Interaction Design (IxD)",
+            "Information Architecture (IA)",
+            "Usability Testing & Research",
+            "Persona Creation & User Journeys",
+            "Accessibility (a11y)",
+            "Responsive Web Design",
+            "Mobile App Design",
+            "High-Fidelity UI Design"
+        ]
+      },
+      {
+        "category": "Product Design Skills",
+        "items": [
+            "Product Strategy & Vision",
+            "Design Systems & Component Libraries",
+            "Agile & Lean Methodologies",
+            "Cross-Functional Collaboration",
+            "Design Thinking",
+            "Feature Prioritization & Roadmapping"
+        ]
+      },
+      {
+        "category": "Leadership & Mentoring",
+        "items": [
+            "Team Leadership & Management",
+            "Stakeholder Communication & Presentations",
+            "Cross-Department Collaboration",
+            "Design Critiques",
+            "Project Management"
+        ]
+      },
+      {
+        "category": "Advanced Technical Skills",
+        "items": [
+            "Front-End Development (React, Next.js)",
+            "Version Control & Design Handoff",
+            "Animation & Motion Design"
+        ]
+      },
+      {
+        "category": "Soft Skills",
+        "items": [
+            "Critical Thinking & Problem Solving",
+            "Adaptability & Learning Agility",
+            "Communication & Empathy",
+            "Conflict Resolution & Negotiation"
+        ]
+      },
+      {
+        "category": "Design Tools",
+        "items": [
+            "Figma",
+            "InVision",
+            "Photoshop",
+            "Illustrator"
+        ]
+      },
+      {
+        "category": "Prototyping & Animation",
+        "items": [
+            "ProtoPie",
+            "Principle",
+            "Framer",
+            "After Effects",
+            "Lottie",
+            "Figma",
+            "WebFlow"
+        ]
+      },
+      {
+        "category": "User Testing & Research",
+        "items": [
+            "UserTesting",
+            "Hotjar",
+            "Flowmapp",
+            "TestSigma",
+            "SauceLabs",
+            "Dovetail",
+            "AudioEye"
+        ]
+      },
+      {
+        "category": "Collaboration & Communication",
+        "items": [
+            "Slack",
+            "Microsoft Teams",
+            "Google Suite",
+            "Miro",
+            "FigJam",
+            "Jira",
+            "Trello",
+            "Asana",
+            "ClickUp",
+            "Notion",
+            "Linear"
+        ]
+      },
+      {
+        "category": "Project Management",
+        "items": [
+            "Agile",
+            "Jira",
+            "Scrum"
+        ]
+      }
+    ]
+  }
