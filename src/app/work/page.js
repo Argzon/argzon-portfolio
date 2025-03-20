@@ -60,7 +60,7 @@ export default function Work() {
                 width={700}
                 height={687}
                 objectFit="cover"
-                className="rounded-2xl h-[300px] md:h-[687px] object-cover w-full hover:scale-105 transition-transform duration-300"
+                className="rounded-2xl h-[300px] md:h-[450px] lg:h-[687px] object-cover w-full hover:scale-105 transition-transform duration-300"
               />
               <div className="flex flex-col gap-6 md:gap-8 lg:flex-row lg:gap-32">
                 <div className="flex flex-col gap-3 shrink-0">
