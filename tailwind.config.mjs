@@ -1,11 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
+const flowbite = require("flowbite-react/tailwind");
 export default {
   darkMode: ["class"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    flowbite.content(),
   ],
   theme: {
     colors: {
@@ -66,6 +68,10 @@ export default {
         400: "#D1D6E0",
         500: "#C6CDDB",
         600: "#BFC6D4",
+      },
+      gray: {
+        200: "#E0E4EB",
+        700: "#303645",
       },
     },
     extend: {

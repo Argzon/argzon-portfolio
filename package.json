@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/progress": "^2.2.12",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "flowbite-react": "^0.10.2",
     "framer-motion": "^12.5.0",
     "gsap": "^3.12.7",
     "heroui-cli": "^1.1.0",
@@ -22,6 +24,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-use-measure": "^2.1.7",
+    "simplex-noise": "^4.0.3",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
