@@ -1,5 +1,4 @@
 "use client";
-import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Footer from "@/components/Footer/page";
 import Navigation from "@/components/Navigation/page";
@@ -12,8 +11,6 @@ import skills from "./data/skills";
 import { Progress } from "flowbite-react";
 
 export default function AboutMe() {
-  const { theme, setTheme } = useTheme();
-
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {

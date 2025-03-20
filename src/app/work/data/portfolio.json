@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Krado",
+            "slug": "krado",
+            "image": "/assets/portfolio-images/main-images/Krado-Mockup.png",
+            "tags": ["UI/UX Design","Animation","Wireframe"],
+            "description": "A complete redesign of Krado's website to enhance user experience, modernize visuals, and improve engagement. This project focused on intuitive navigation, interactive animations, and a seamless mobile experience."
+        },
+        {
+            "id": 2,
+            "title": "Cryptico",
+            "slug": "cryptico",
+            "image": "/assets/portfolio-images/main-images/Cryptico-Mockup.png",
+            "tags": ["Product Design","UI/UX Design","Wireframe"],
+            "description": "A sleek and secure crypto trading platform designed for seamless web and mobile experiences. This case study showcases my role in UX research, UI design, and frontend development to enhance usability and engagement."
+        },
+        {
+            "id": 3,
+            "title": "Coherent",
+            "slug": "coherent",
+            "image": "/assets/portfolio-images/main-images/Coherent-Mockup.png",
+            "tags": ["UI/UX Design","Animation","Wireframe"],
+            "description": "Transforming Coherent's website into an intuitive, engaging platform that bridges the gap between developers and business teams. Through strategic UX/UI design, clear information architecture, and a user-centric approach, the new site effectively tells Coherent's story while enhancing usability and engagement."
+        },
+        {
+            "id": 4,
+            "title": "TalentAlly",
+            "slug": "talentally",
+            "image": "/assets/portfolio-images/main-images/TalentAlly-Mockup.png",
+            "tags": ["Product Design","UI/UX Design","Wireframe"],
+            "description": "A complete UI/UX redesign of TalentAlly's (formerly: IPDN) website, transforming an outdated platform into a modern, user-friendly experience. This case study showcases my design process, collaboration, and final impactful results."
+        },
+        {
+            "id": 5,
+            "title": "Creatick",
+            "slug": "creatick",
+            "image": "/assets/portfolio-images/main-images/Creatick-Mockup.png",
+            "tags": ["Product Design","UI/UX Design","Wireframe"],
+            "description": "A complete case study on Creatick, a social media management platform, showcasing my end-to-end design and development process, from research to execution. This project highlights UX/UI design, front-end development, and agile methodologies to create an intuitive and engaging user experience."
+        },
+        {
+            "id": 6,
+            "title": "Northbeam",
+            "slug": "northbeam",
+            "image": "/assets/portfolio-images/main-images/Northbeam-Mockup.png",
+            "tags": ["UI/UX Design","Animation","Wireframe"],
+            "description": "A complete UX/UI transformation for Northbeam's website, enhancing its brand identity, user experience, and conversion rates through strategic research, design, and implementation."
+        },
+        {
+            "id": 7,
+            "title": "Nelta",
+            "slug": "nelta",
+            "image": "/assets/portfolio-images/main-images/Nelta-Mockup.png",
+            "tags": ["UI/UX Design","Frontend Dev","Wireframe"],
+            "description": "Redesigned and developed a high-performing website for Nelta, enhancing user experience and brand positioning. Leveraged UX research, modern design, and Next.js for a scalable solution."
+        }
+    ]
+}
