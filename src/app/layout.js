@@ -2,6 +2,7 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -13,7 +14,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Argzon's Portfolio" />
+      </head>
       <body>
         <ThemeProvider
           attribute="class"
@@ -28,7 +31,10 @@ export default function RootLayout({ children }) {
             return theme;
           }}
         >
-          <main className="bg-surface-primary min-h-screen">{children}</main>
+          <main className="bg-surface-primary min-h-screen">
+            {children}
+            <Analytics />
+          </main>
         </ThemeProvider>
       </body>
     </html>
