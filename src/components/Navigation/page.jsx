@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div className="flex justify-between items-center max-w-[728px] w-full bg-white-200 dark:bg-black-500 rounded-full p-2 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500">
       {/* Logo */}
-      <div className="flex flex-row items-center gap-2 select-none">
+      <Link href="/" className="flex flex-row items-center gap-2 select-none">
         <Image
           src={"/assets/ArgiProfilePic.png"}
           width={40}
@@ -20,7 +20,7 @@ export default function Navigation() {
         <span className="tooltip md:label dark:text-black-100 text-black-200">
           Interface Designer
         </span>
-      </div>
+      </Link>
       <ul className="hidden md:flex items-center">
         <li>
           <Link href="/">
