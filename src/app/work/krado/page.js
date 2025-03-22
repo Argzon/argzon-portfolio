@@ -80,7 +80,7 @@ export default function Krado() {
         {/* Image */}
         <div className="w-full p-6 md:p-[60px] lg:p-[90px] green-light flex items-center justify-center rounded-xl">
           <Image
-            src="/assets/portfolio-images/Krado/hero-image.svg"
+            src="/assets/portfolio-images/krado/hero-image.svg"
             height={572}
             width={1100}
             alt="Krado"
