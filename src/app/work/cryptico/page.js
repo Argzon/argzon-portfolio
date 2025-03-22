@@ -185,7 +185,7 @@ export default function Cryptico() {
           </div>
         </div>
         {/* Comparison Table */}
-        <div className="w-full bg-white-600 dark:bg-black-500 rounded-2xl h-[676px] p-4 md:p-10 lg:p-8">
+        <div className="w-full flex items-center justify-center bg-white-600 dark:bg-black-500 rounded-2xl p-4 md:p-10 lg:p-8">
           <ComparisonTable />
         </div>
       </div>
