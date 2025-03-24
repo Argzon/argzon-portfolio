@@ -442,7 +442,7 @@ export default function Northbeam() {
             height={471}
             width={755}
             alt="North Icon"
-            className="absolute -top-[20px] -right-96 hidden lg:block select-text"
+            className="absolute -top-[20px] -right-96 hidden lg:block select-text animate-pulse"
           />
         </div>
       </div>
