@@ -53,24 +53,70 @@ export default function Work() {
               key={project.id}
               scroll={false}
               href={`/work/${project.slug}`}
-              className="w-full flex flex-col gap-6"
+              className="w-full flex flex-col gap-6 group lg:hover:bg-white-200 dark:lg:hover:bg-black-500 lg:hover:rounded-b-2xl transition-all duration-1000"
             >
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={700}
-                height={687}
-                objectFit="cover"
-                className="rounded-2xl h-[300px] md:h-[450px] lg:h-[687px] object-cover w-full hover:scale-105 transition-transform duration-300"
-              />
-              <div className="flex flex-col gap-6 md:gap-8 lg:flex-row lg:gap-32">
+              <div className="relative">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={700}
+                  height={687}
+                  objectFit="cover"
+                  className="rounded-2xl h-[300px] md:h-[450px] lg:h-[687px] object-cover w-full  transition-transform duration-300"
+                />
+                {/* Desktop hover overlay */}
+                <div className="absolute inset-0 bg-black-600 bg-opacity-70 rounded-2xl opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 items-center justify-center hidden lg:flex">
+                  <div className="flex items-center gap-2 text-white-100">
+                    <span className="subtitle text-white-100">
+                      Check Full Case Study
+                    </span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7 17L17 7M17 7H7M17 7V17"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                {/* Mobile/Tablet permanent overlay */}
+                <div className="absolute bottom-0 left-0 right-0 bg-black-600 bg-opacity-70 rounded-b-2xl p-4 flex items-center justify-between lg:hidden">
+                  <span className="subtitle text-white-100">
+                    Check Full Case Study
+                  </span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 17L17 7M17 7H7M17 7V17"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 md:gap-8 lg:flex-row lg:gap-32 lg:group-hover:px-4 lg:group-hover:gap-[112px] pb-4 transition-all duration-1000">
                 <div className="flex flex-col gap-3 shrink-0">
                   <h4>{project.title}</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag, index) => (
                       <p
                         key={index}
-                        className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0"
+                        className="label bg-white-200 dark:bg-black-500 lg:group-hover:bg-white-300 dark:lg:group-hover:bg-black-400 rounded-full px-4 py-2 shrink-0 transition-all duration-1000"
                       >
                         {tag}
                       </p>
