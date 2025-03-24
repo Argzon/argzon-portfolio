@@ -51,6 +51,7 @@ export default function Work() {
           {portfolioData.projects.map((project) => (
             <Link
               key={project.id}
+              scroll={false}
               href={`/work/${project.slug}`}
               className="w-full flex flex-col gap-6"
             >
