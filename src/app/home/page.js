@@ -12,6 +12,7 @@ import { TextEffect } from "@/components/ui/text-effect";
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import Testimonials from "./sections/testimonials/page";
 import Stacks from "./sections/stacks/page";
+import Portfolio from "./sections/portfolio";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -194,128 +195,7 @@ export default function Home() {
             interfaces.
           </p>
         </div>
-        <div className="flex flex-col gap-[30px] lg:gap-16">
-          <div className="flex flex-col lg:flex-row gap-[30px]">
-            {/* Krado */}
-            <Link
-              href="/work/krado"
-              scroll={false}
-              className="w-full flex flex-col gap-6"
-            >
-              <Image
-                src="/assets/portfolio-images/main-images/Krado-Mockup.png"
-                alt="Krado"
-                width={700}
-                height={390}
-                objectFit="cover"
-                className="rounded-2xl h-[390px] object-cover w-full"
-              />
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0">
-                <h4>Krado</h4>
-                <div className="flex fle-wrap gap-2">
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Web Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Animation
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Wireframe
-                  </p>
-                </div>
-              </div>
-            </Link>
-            {/* Cryptico */}
-            <Link
-              href="/work/cryptico"
-              scroll={false}
-              className="w-full flex flex-col gap-6"
-            >
-              <Image
-                src="/assets/portfolio-images/main-images/Cryptico-Mockup.png"
-                alt="Cryptico"
-                width={700}
-                height={390}
-                objectFit="cover"
-                className="rounded-2xl h-[390px] object-cover w-full"
-              />
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0">
-                <h4>Cryptico</h4>
-                <div className="flex flex-wrap gap-2">
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Product Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    UI/UX Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Wireframe
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="flex flex-col lg:flex-row gap-[30px]">
-            {/* Coherent */}
-            <Link
-              href="/work/coherent"
-              scroll={false}
-              className="w-full flex flex-col gap-6"
-            >
-              <Image
-                src="/assets/portfolio-images/main-images/Coherent-Mockup.png"
-                alt="Coherent"
-                width={700}
-                height={390}
-                objectFit="cover"
-                className="rounded-2xl h-[390px] object-cover w-full"
-              />
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0">
-                <h4>Coherent</h4>
-                <div className="flex flex-wrap gap-2">
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    UI/UX Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Animation
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Wireframe
-                  </p>
-                </div>
-              </div>
-            </Link>
-            {/* Creatick */}
-            <Link
-              href="/work/creatick"
-              scroll={false}
-              className="w-full flex flex-col gap-6"
-            >
-              <Image
-                src="/assets/portfolio-images/main-images/Creatick-Mockup.png"
-                alt="Creatick"
-                width={700}
-                height={390}
-                objectFit="cover"
-                className="rounded-2xl h-[390px] object-cover w-full"
-              />
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0">
-                <h4>Creatick</h4>
-                <div className="flex flex-wrap gap-2">
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Product Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    UI/UX Design
-                  </p>
-                  <p className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0">
-                    Wireframe
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-        </div>
+        <Portfolio />
         <Magnet padding={100} disabled={false} magnetStrength={70}>
           <Link
             href="/work"
