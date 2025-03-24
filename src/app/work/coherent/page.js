@@ -402,7 +402,7 @@ export default function Coherent() {
               happier with the outcome.&quot;
             </p>
             <h6 className="text-white-100">
-              - Chief Marketing Officer, Coherent
+              - Peter Roschke, Chief Technology Officer, Coherent
             </h6>
           </div>
           <Image

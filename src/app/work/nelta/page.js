@@ -287,7 +287,7 @@ export default function Nelta() {
               have enhanced our customer engagement significantly!&quot;
             </p>
             <h6 className="text-white-100 dark:text-black-600">
-              - Youssuf Zarhan, CEO, Nelta Team
+              - Youssuf Zarhan, Chief Executive Officer, Nelta
             </h6>
           </div>
           <Image
