@@ -14,6 +14,7 @@ export default function Stacks() {
         {stacksData.stacks.slice(0, 3).map((stack) => (
           <Link
             href={stack.link}
+            target="_blank"
             key={stack.id}
             className="bg-white-200 hover:bg-white-300 dark:bg-black-500 dark:hover:bg-black-400 rounded-lg p-4 flex items-center justify-between transition-colors duration-300"
           >
@@ -49,6 +50,7 @@ export default function Stacks() {
         {stacksData.stacks.slice(3, 6).map((stack) => (
           <Link
             href={stack.link}
+            target="_blank"
             key={stack.id}
             className="bg-white-200 hover:bg-white-300 dark:bg-black-500 dark:hover:bg-black-400 rounded-lg p-4 flex items-center justify-between transition-colors duration-300"
           >
