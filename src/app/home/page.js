@@ -58,7 +58,7 @@ export default function Home() {
                   Building websites & apps for immersive digital experiences.
                 </p>
                 <div className="flex items-center gap-2.5 shrink-0">
-                  <div className="h-2.5 w-2.5 rounded-full bg-green-100"></div>
+                  <div className="h-2.5 w-2.5 rounded-full bg-green-300 animate-bounce"></div>
                   <p>Working remotely</p>
                 </div>
               </div>
