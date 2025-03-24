@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col gap-[200px]">
+    <div className="flex flex-col gap-[150px] lg:gap-[200px]">
       {/* Header */}
       <AuroraBackground>
         <div className="px-10 lg:px-0 h-full pb-10">
