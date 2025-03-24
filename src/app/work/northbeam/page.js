@@ -69,7 +69,7 @@ export default function Northbeam() {
                 <p className="subtitle text-primary">Client</p>
               </div>
               <div className="flex flex-col gap-2">
-                <h6>01 January 2024</h6>
+                <h6>04 August 2023</h6>
                 <h6>Northbeam</h6>
               </div>
             </div>
