@@ -85,6 +85,7 @@ export default function Home() {
         <Magnet padding={100} disabled={false} magnetStrength={70}>
           <Link
             href="/about"
+            scroll={false}
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
             Read more about me{" "}
@@ -196,7 +197,11 @@ export default function Home() {
         <div className="flex flex-col gap-[30px] lg:gap-16">
           <div className="flex flex-col lg:flex-row gap-[30px]">
             {/* Krado */}
-            <Link href="/work/krado" className="w-full flex flex-col gap-6">
+            <Link
+              href="/work/krado"
+              scroll={false}
+              className="w-full flex flex-col gap-6"
+            >
               <Image
                 src="/assets/portfolio-images/main-images/Krado-Mockup.png"
                 alt="Krado"
@@ -221,7 +226,11 @@ export default function Home() {
               </div>
             </Link>
             {/* Cryptico */}
-            <Link href="/work/cryptico" className="w-full flex flex-col gap-6">
+            <Link
+              href="/work/cryptico"
+              scroll={false}
+              className="w-full flex flex-col gap-6"
+            >
               <Image
                 src="/assets/portfolio-images/main-images/Cryptico-Mockup.png"
                 alt="Cryptico"
@@ -248,7 +257,11 @@ export default function Home() {
           </div>
           <div className="flex flex-col lg:flex-row gap-[30px]">
             {/* Coherent */}
-            <Link href="/work/coherent" className="w-full flex flex-col gap-6">
+            <Link
+              href="/work/coherent"
+              scroll={false}
+              className="w-full flex flex-col gap-6"
+            >
               <Image
                 src="/assets/portfolio-images/main-images/Coherent-Mockup.png"
                 alt="Coherent"
@@ -273,7 +286,11 @@ export default function Home() {
               </div>
             </Link>
             {/* Creatick */}
-            <Link href="/work/creatick" className="w-full flex flex-col gap-6">
+            <Link
+              href="/work/creatick"
+              scroll={false}
+              className="w-full flex flex-col gap-6"
+            >
               <Image
                 src="/assets/portfolio-images/main-images/Creatick-Mockup.png"
                 alt="Creatick"
@@ -302,6 +319,7 @@ export default function Home() {
         <Magnet padding={100} disabled={false} magnetStrength={70}>
           <Link
             href="/work"
+            scroll={false}
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
             View all case studies
