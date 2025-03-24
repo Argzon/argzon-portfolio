@@ -74,7 +74,7 @@ export default function Portfolio() {
               {project.workDone.map((tag, index) => (
                 <p
                   key={index}
-                  className="label bg-white-200 dark:bg-black-500 rounded-full px-4 py-2 shrink-0"
+                  className="label bg-white-200 dark:bg-black-500 lg:group-hover:bg-white-300 dark:lg:group-hover:bg-black-400 rounded-full px-4 py-2 shrink-0 transition-all duration-1000"
                 >
                   {tag}
                 </p>
