@@ -9,6 +9,7 @@ import { TimelineEdu } from "@/components/ui/timeline-edu";
 import { educationData } from "./data/education";
 import skills from "./data/skills";
 import { Progress } from "flowbite-react";
+import SpotlightCard from "@/components/ui/spotlight-card";
 
 export default function AboutMe() {
   const [mounted, setMounted] = useState(false);
@@ -59,44 +60,50 @@ export default function AboutMe() {
         <h3 className="text-center">Key Achievements</h3>
         <div className="flex flex-col lg:flex-row gap-8">
           {/* User Engagement Boost */}
-          <div className="w-full bg-white-300 dark:bg-black-400 hover:bg-white-400 dark:hover:bg-black-300 px-10 py-20 text-center rounded-3xl flex flex-col items-center gap-8 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-400 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 transition-colors duration-300">
-            <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
-              <span className="text-4xl">🚀</span>
+          <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+            <div className="px-10 py-20 text-center flex flex-col items-center gap-8">
+              <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
+                <span className="text-4xl">🚀</span>
+              </div>
+              <div className="flex flex-col gap-2.5">
+                <h5>User Engagement Boost</h5>
+                <p>
+                  Achieved 20% increase in user engagement by transforming
+                  complex requirements into user-friendly designs.
+                </p>
+              </div>
             </div>
-            <div className="flex flex-col gap-2.5">
-              <h5>User Engagement Boost</h5>
-              <p>
-                Achieved 20% increase in user engagement by transforming complex
-                requirements into user-friendly designs.
-              </p>
-            </div>
-          </div>
+          </SpotlightCard>
           {/* Design System Implementation */}
-          <div className="w-full bg-white-300 dark:bg-black-400 hover:bg-white-400 dark:hover:bg-black-300 px-10 py-20 text-center rounded-3xl flex flex-col items-center gap-8 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-400 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 transition-colors duration-300">
-            <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
-              <span className="text-4xl">🕐</span>
+          <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+            <div className="px-10 py-20 text-center flex flex-col items-center gap-8">
+              <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
+                <span className="text-4xl">🎨</span>
+              </div>
+              <div className="flex flex-col gap-2.5">
+                <h5>Design System Implementation</h5>
+                <p>
+                  Increased design consistency by 30% using Figma to create a
+                  comprehensive design system.
+                </p>
+              </div>
             </div>
-            <div className="flex flex-col gap-2.5">
-              <h5>Design System Implementation</h5>
-              <p>
-                Increased design consistency by 30% using Figma to create a
-                comprehensive design system.
-              </p>
-            </div>
-          </div>
+          </SpotlightCard>
           {/* On-time Project Delivery */}
-          <div className="w-full bg-white-300 dark:bg-black-400 hover:bg-white-400 dark:hover:bg-black-300 px-10 py-20 text-center rounded-3xl flex flex-col items-center gap-8 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-400 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 transition-colors duration-300">
-            <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
-              <span className="text-4xl">🕐</span>
+          <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+            <div className="px-10 py-20 text-center flex flex-col items-center gap-8">
+              <div className="h-[90px] w-[90px] rounded-2xl bg-blue-200 flex items-center justify-center">
+                <span className="text-4xl">🕐</span>
+              </div>
+              <div className="flex flex-col gap-2.5">
+                <h5>On-time Project Delivery</h5>
+                <p>
+                  Delivered all projects on time and within budget, leading to
+                  95% client satisfaction rate.
+                </p>
+              </div>
             </div>
-            <div className="flex flex-col gap-2.5">
-              <h5>On-time Project Delivery</h5>
-              <p>
-                Delivered all projects on time and within budget, leading to 95%
-                client satisfaction rate.
-              </p>
-            </div>
-          </div>
+          </SpotlightCard>
         </div>
       </div>
 
