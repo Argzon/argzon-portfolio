@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation/page";
 import Footer from "@/components/Footer/page";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import CTA from "@/components/CTA/page";
 import BeforeAndAfter from "./sections/beforeandafter";
 import Label from "@/components/Label/page";
@@ -14,13 +14,16 @@ export default function Talentally() {
   const [activeSection, setActiveSection] = useState("introduction");
   const [showFloatingNav, setShowFloatingNav] = useState(false);
 
-  const sections = [
-    { id: "introduction", label: "Introduction" },
-    { id: "challenge", label: "The Challenge" },
-    { id: "collaboration", label: "Collaboration" },
-    { id: "solution", label: "Solution" },
-    { id: "outcome", label: "Final Outcome" },
-  ];
+  const sections = useMemo(
+    () => [
+      { id: "introduction", label: "Introduction" },
+      { id: "challenge", label: "The Challenge" },
+      { id: "collaboration", label: "My Role & Collaboration" },
+      { id: "solution", label: "The Solution" },
+      { id: "outcome", label: "Final Outcome" },
+    ],
+    []
+  );
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
