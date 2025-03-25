@@ -22,6 +22,7 @@ export default function Testimonials() {
                 width={150}
                 height={50}
                 className="object-contain"
+                loading="lazy"
               />
             </div>
             <p className="text-lg mb-12 whitespace-pre-line">
@@ -35,6 +36,8 @@ export default function Testimonials() {
                   height={45}
                   width={45}
                   className="rounded-full"
+                  loading="eager"
+                  priority={true}
                 />
                 <div>
                   <p className="subtitle font-archiv text-primary">
@@ -53,6 +56,7 @@ export default function Testimonials() {
                   width={150}
                   height={50}
                   className="object-contain"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -73,6 +77,7 @@ export default function Testimonials() {
                 width={150}
                 height={50}
                 className="object-contain"
+                loading="lazy"
               />
             </div>
             <p className="text-lg mb-8 whitespace-pre-line">
@@ -86,6 +91,8 @@ export default function Testimonials() {
                   height={45}
                   width={45}
                   className="rounded-full"
+                  loading="eager"
+                  priority={true}
                 />
                 <div>
                   <p className="subtitle font-archiv text-primary">
@@ -104,6 +111,7 @@ export default function Testimonials() {
                   width={150}
                   height={50}
                   className="object-contain"
+                  loading="lazy"
                 />
               </div>
             </div>

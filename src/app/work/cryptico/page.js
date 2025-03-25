@@ -86,6 +86,11 @@ export default function Cryptico() {
             height={572}
             width={1100}
             alt="Cryptico"
+            priority
+            loading="eager"
+            placeholder="blur"
+            blurDataURL="/assets/portfolio-images/cryptico/hero-image.svg"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -125,6 +130,10 @@ export default function Cryptico() {
             height={572}
             width={1100}
             alt="Cryptico"
+            loading="eager"
+            placeholder="blur"
+            blurDataURL="/assets/portfolio-images/cryptico/introduction.png"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -208,6 +217,12 @@ export default function Cryptico() {
             height={467}
             width={1200}
             alt="Information Architecture"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/cryptico/information-architecture.svg"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -242,6 +257,10 @@ export default function Cryptico() {
             height={612}
             width={1200}
             alt="Moodboard"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/cryptico/moodboard.png"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -265,6 +284,10 @@ export default function Cryptico() {
               height={612}
               width={1200}
               alt="Homepage"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/cryptico/design-1.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 & 3 */}
@@ -276,6 +299,10 @@ export default function Cryptico() {
                 height={612}
                 width={1200}
                 alt="Withdraw page"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/cryptico/design-2.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
             {/* Image 3 */}
@@ -285,6 +312,10 @@ export default function Cryptico() {
                 height={612}
                 width={1200}
                 alt="Setup MFA"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/cryptico/design-3.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
           </div>
@@ -295,6 +326,10 @@ export default function Cryptico() {
               height={612}
               width={1200}
               alt="Create an account"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/cryptico/design-4.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -331,6 +366,12 @@ export default function Cryptico() {
             height={612}
             width={1200}
             alt="Development Code"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/cryptico/development-code.png"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -373,7 +414,11 @@ export default function Cryptico() {
             src={"/assets/portfolio-images/cryptico/roadmap.png"}
             height={529}
             width={1200}
-            alt="Homepage"
+            alt="Roadmap"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/cryptico/roadmap.png"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -398,6 +443,12 @@ export default function Cryptico() {
             height={768}
             width={1200}
             alt="Homepage"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/cryptico/homepage-laptop.png"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>

@@ -33,6 +33,8 @@ export default function Footer() {
               height={40}
               alt="Profile Picture"
               className="rounded-full w-10 h-10 object-cover border border-black-500"
+              loading="eager"
+              priority
             />
             <p className="text-white-100 dark:text-black-600">Argzon Haziraj</p>
             <div className="w-2 h-2 bg-black-400 dark:bg-white-600 rounded-full"></div>
@@ -86,6 +88,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="Light Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
               <div className="hidden dark:block">
@@ -94,6 +98,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="Light Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
             </div>
@@ -112,6 +118,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="Dark Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
               <div className="hidden dark:block">
@@ -120,6 +128,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="Dark Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
             </div>
@@ -138,6 +148,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="System Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
               <div className="hidden dark:block">
@@ -146,6 +158,8 @@ export default function Footer() {
                   width={24}
                   height={24}
                   alt="System Mode"
+                  loading="eager"
+                  priority
                 />
               </div>
             </div>

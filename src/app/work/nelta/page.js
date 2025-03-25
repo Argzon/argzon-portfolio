@@ -80,6 +80,11 @@ export default function Nelta() {
             height={572}
             width={1100}
             alt="TalentAlly Website Redesign"
+            priority
+            loading="eager"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/nelta/hero-image.svg"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -134,6 +139,10 @@ export default function Nelta() {
               height={612}
               width={1200}
               alt="TalentAlly User Flow"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/nelta/user-flow.png"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -164,6 +173,12 @@ export default function Nelta() {
             height={529}
             width={1200}
             alt="Nelta Information Architecture"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/nelta/information-architecture.svg"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -187,6 +202,10 @@ export default function Nelta() {
               height={612}
               width={1200}
               alt="Homepage"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/nelta/design-1.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 & 3 */}
@@ -198,6 +217,10 @@ export default function Nelta() {
                 height={612}
                 width={1200}
                 alt="Vacancy Page"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/nelta/design-2.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
             {/* Image 3 */}
@@ -207,6 +230,10 @@ export default function Nelta() {
                 height={612}
                 width={1200}
                 alt="Contact Us"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/nelta/design-3.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
           </div>
@@ -217,6 +244,10 @@ export default function Nelta() {
               height={612}
               width={1200}
               alt="Services"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/nelta/design-4.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -296,6 +327,10 @@ export default function Nelta() {
             width={490}
             alt="Nelta Icon"
             className="absolute -bottom-9 -right-[188px] hidden lg:block"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/nelta/icon.svg"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
