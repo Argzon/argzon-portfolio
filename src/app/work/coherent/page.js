@@ -89,6 +89,7 @@ export default function Coherent() {
           muted={true}
           loop={true}
           style={{ borderRadius: "16px", overflow: "hidden" }}
+          playsinline={true}
         />
       </div>
 
@@ -303,6 +304,7 @@ export default function Coherent() {
               borderRadius: "16px",
               overflow: "hidden",
             }}
+            playsinline={true}
           />{" "}
         </div>
       </div>
@@ -358,6 +360,7 @@ export default function Coherent() {
                 borderRadius: "16px",
                 overflow: "hidden",
               }}
+              playsinline={true}
             />
           </div>
           {/* Desktop UI VIdeo  */}
@@ -374,6 +377,7 @@ export default function Coherent() {
                 borderRadius: "16px",
                 overflow: "hidden",
               }}
+              playsinline={true}
             />
           </div>
         </div>

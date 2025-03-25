@@ -276,6 +276,7 @@ export default function Krado() {
             muted={true}
             loop={true}
             style={{ borderRadius: "16px", overflow: "hidden" }}
+            playsinline={true}
           />{" "}
         </div>
       </div>
@@ -337,6 +338,7 @@ export default function Krado() {
               borderRadius: "16px",
               overflow: "hidden",
             }}
+            playsinline={true}
           />{" "}
         </div>
       </div>
@@ -370,6 +372,7 @@ export default function Krado() {
               borderRadius: "16px",
               overflow: "hidden",
             }}
+            playsinline={true}
           />{" "}
         </div>
       </div>

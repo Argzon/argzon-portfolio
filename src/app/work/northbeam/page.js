@@ -85,6 +85,7 @@ export default function Northbeam() {
           muted={true}
           loop={true}
           style={{ borderRadius: "16px", overflow: "hidden" }}
+          playsinline={true}
         />
       </div>
 
@@ -238,6 +239,7 @@ export default function Northbeam() {
                 borderRadius: "16px",
                 overflow: "hidden",
               }}
+              playsinline={true}
             />
           </div>
           {/* Desktop UI VIdeo  */}
@@ -254,6 +256,7 @@ export default function Northbeam() {
                 borderRadius: "16px",
                 overflow: "hidden",
               }}
+              playsinline={true}
             />
           </div>
         </div>
