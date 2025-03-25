@@ -39,7 +39,7 @@ export default function Creatick() {
           </Link>
           <Navigation />
           <Link
-            href="/work"
+            href="/work/cryptico"
             className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
           >
             Next Project
