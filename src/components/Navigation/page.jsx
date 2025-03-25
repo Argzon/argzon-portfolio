@@ -12,6 +12,8 @@ export default function Navigation() {
           height={40}
           alt="Profile Picture"
           className="rounded-full w-10 h-10 object-cover border border-black-500"
+          priority={true}
+          loading="eager"
         />
         <p className="label md:body dark:text-white-100 text-black-600">
           Argzon Haziraj
@@ -55,7 +57,14 @@ export default function Navigation() {
 
       {/* mobile menu */}
       <div className="flex md:hidden items-center justify-center cursor-pointer h-10 w-10 rounded-full bg-blue-100">
-        <Image src="/assets/icons/menu.svg" width={16} height={16} alt="menu" />
+        <Image
+          src="/assets/icons/menu.svg"
+          width={16}
+          height={16}
+          alt="menu"
+          priority={true}
+          loading="eager"
+        />
       </div>
     </div>
   );

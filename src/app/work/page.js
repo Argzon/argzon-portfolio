@@ -63,6 +63,11 @@ export default function Work() {
                   height={687}
                   objectFit="cover"
                   className="rounded-2xl h-[300px] md:h-[450px] lg:h-[687px] object-cover w-full  transition-transform duration-300"
+                  loading="eager"
+                  priority
+                  placeholder="blur"
+                  blurDataURL={project.image}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                 />
                 {/* Desktop hover overlay */}
                 <div className="absolute inset-0 bg-black-600 bg-opacity-70 rounded-2xl opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 items-center justify-center hidden lg:flex">

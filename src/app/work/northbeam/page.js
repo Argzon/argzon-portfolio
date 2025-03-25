@@ -187,6 +187,12 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Information Architecture"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/northbeam/information-architecture.svg"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -293,6 +299,10 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Moodboard"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/northbeam/moodboard.jpg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image  */}
@@ -302,6 +312,10 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Moodboard"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/northbeam/moodboard-2.jpg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image  */}
@@ -311,6 +325,10 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Design System - Colors"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/northbeam/ds-colors.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image  */}
@@ -320,6 +338,12 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Design System - Typography"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/northbeam/ds-typography.svg"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image  */}
@@ -329,6 +353,10 @@ export default function Northbeam() {
               height={529}
               width={1200}
               alt="Northbeam Design System - Buttons"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/northbeam/ds-buttons.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -365,6 +393,10 @@ export default function Northbeam() {
             height={529}
             width={1200}
             alt="Northbeam Design System - Components"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/northbeam/ds-components.svg"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -436,13 +468,16 @@ export default function Northbeam() {
               - Bryan Bumgardner, Director of Growth Marketing, Northbeam
             </h6>
           </div>
-          {/* TODO: Fix the icon */}
           <Image
             src={"/assets/portfolio-images/northbeam/icon.png"}
             height={471}
             width={755}
             alt="North Icon"
             className="absolute -top-[20px] -right-96 hidden lg:block select-text animate-pulse"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/northbeam/icon.png"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>

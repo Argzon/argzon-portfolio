@@ -9,6 +9,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-2.png"}
@@ -16,6 +17,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-3.png"}
@@ -23,6 +25,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-4.png"}
@@ -30,6 +33,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-5.png"}
@@ -37,6 +41,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-6.png"}
@@ -44,6 +49,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-7.png"}
@@ -51,6 +57,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-8.png"}
@@ -58,6 +65,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-9.png"}
@@ -65,6 +73,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
       <Image
         src={"/assets/portfolio-images/krado/old-website-10.png"}
@@ -72,6 +81,7 @@ export default function ChallengeImages() {
         width={600}
         alt="Krado Old Website"
         className="rounded-2xl"
+        loading="lazy"
       />
     </div>
   );

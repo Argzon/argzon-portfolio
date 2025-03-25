@@ -80,6 +80,11 @@ export default function Talentally() {
             height={572}
             width={1100}
             alt="TalentAlly Website Redesign"
+            priority
+            loading="eager"
+            placeholder="blur"
+            blurDataURL="/assets/portfolio-images/talentally/hero-image.svg"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -114,6 +119,10 @@ export default function Talentally() {
               height={612}
               width={1200}
               alt="TalentAlly Moodboard"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/talentally/moodboard.jpg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -142,6 +151,10 @@ export default function Talentally() {
             width={1200}
             alt="TalentAlly Old Website"
             className="rounded-2xl"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/talentally/old-website.jpg"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -167,6 +180,12 @@ export default function Talentally() {
             height={529}
             width={1200}
             alt="TalentAlly Collaboration"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/talentally/collaboration.png"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -193,6 +212,10 @@ export default function Talentally() {
               height={612}
               width={1200}
               alt="Homepage"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/talentally/design-1.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 & 3 */}
@@ -204,6 +227,10 @@ export default function Talentally() {
                 height={612}
                 width={1200}
                 alt="Employer Features"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/talentally/design-2.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
             {/* Image 3 */}
@@ -213,6 +240,10 @@ export default function Talentally() {
                 height={612}
                 width={1200}
                 alt="Job Box"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/talentally/design-3.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
           </div>
@@ -223,6 +254,10 @@ export default function Talentally() {
               height={612}
               width={1200}
               alt="Design System"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/talentally/design-4.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 5 */}
@@ -232,6 +267,10 @@ export default function Talentally() {
               height={612}
               width={1200}
               alt="Career Resources"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/talentally/design-5.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -258,6 +297,12 @@ export default function Talentally() {
               height={612}
               width={1200}
               alt="TalentAlly Presentation"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/talentally/presentation.png"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>

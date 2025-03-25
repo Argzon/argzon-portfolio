@@ -175,6 +175,12 @@ export default function Coherent() {
               width={1200}
               alt="Coherent Old Website"
               className="rounded-lg md:rounded-2xl"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/coherent/coherent-old-website.jpg"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image  */}
@@ -187,6 +193,12 @@ export default function Coherent() {
               width={1200}
               alt="Coherent New Website Presentation"
               className="rounded-lg md:rounded-2xl"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/coherent/new-website-presentation.jpg"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -234,6 +246,12 @@ export default function Coherent() {
             width={1200}
             alt="Information Architecture"
             className="rounded-lg md:rounded-2xl"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={
+              "/assets/portfolio-images/coherent/information-architecture.jpg"
+            }
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -254,6 +272,10 @@ export default function Coherent() {
             height={529}
             width={1200}
             alt="Moodboard"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/coherent/moodboard.png"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>

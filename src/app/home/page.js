@@ -48,6 +48,8 @@ export default function Home() {
                       width={75}
                       alt="Argi"
                       className="inline rounded-full hover:-mt-2 border-4 border-white-300 transition-all duration-1200"
+                      priority={true}
+                      loading="eager"
                     />
                   </span>
                   ugh
@@ -99,6 +101,7 @@ export default function Home() {
               height={24}
               width={24}
               alt="Arrow right icon"
+              loading="eager"
             />
           </Link>
         </Magnet>
@@ -126,6 +129,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="TalentAlly"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -134,6 +138,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Northbeam"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -142,6 +147,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Creatick"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -150,6 +156,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Coherent"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -158,6 +165,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Krado"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -166,6 +174,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Nelta"
+                  loading="lazy"
                 />
               </div>
               <div className="bg-white-300 hover:bg-white-400 dark:bg-white-400 dark:hover:bg-white-300 h-[80px] w-[210px] flex items-center justify-center rounded-lg transition-colors duration-300">
@@ -174,6 +183,7 @@ export default function Home() {
                   width={150}
                   height={150}
                   alt="Cryptico"
+                  loading="lazy"
                 />
               </div>
             </InfiniteSlider>
@@ -212,6 +222,8 @@ export default function Home() {
               height={24}
               width={24}
               alt="Arrow right icon"
+              priority={true}
+              loading="eager"
             />
           </Link>
         </Magnet>

@@ -20,6 +20,7 @@ export default function Portfolio() {
               height={390}
               objectFit="cover"
               className="rounded-2xl h-[390px] object-cover w-full lg:group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
             />
             {/* Desktop hover overlay */}
             <div className="absolute inset-0 bg-black-600 bg-opacity-70 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center hidden lg:flex">

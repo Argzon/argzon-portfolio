@@ -84,6 +84,9 @@ export default function Krado() {
             height={572}
             width={1100}
             alt="Krado"
+            priority
+            loading="eager"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -135,7 +138,7 @@ export default function Krado() {
           <div className="flex flex-col gap-4">
             <Label
               title="Outdated Visuals & UI:"
-              description="The old design lacked modern aesthetics and failed to reflect Krado’s innovation."
+              description="The old design lacked modern aesthetics and failed to reflect Krado's innovation."
             />
             <Label
               title="Poor User Experience:"
@@ -206,6 +209,7 @@ export default function Krado() {
             height={612}
             width={1200}
             alt="Information Architecture"
+            loading="lazy"
           />
         </div>
       </div>
@@ -299,6 +303,7 @@ export default function Krado() {
             height={529}
             width={1200}
             alt="User Flow"
+            loading="lazy"
           />
         </div>
       </div>
@@ -391,6 +396,7 @@ export default function Krado() {
             height={529}
             width={1200}
             alt="Checkout Process"
+            loading="lazy"
           />
         </div>
       </div>
@@ -456,6 +462,7 @@ export default function Krado() {
             width={755}
             alt="Krado Sensor"
             className="absolute top-[83px] -right-32 hidden lg:block select-text"
+            loading="lazy"
           />
         </div>
       </div>

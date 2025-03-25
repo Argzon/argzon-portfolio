@@ -25,6 +25,7 @@ export default function Stacks() {
                   height={30}
                   width={30}
                   alt={stack.name}
+                  loading="lazy"
                 />
               </div>
               <div>
@@ -41,6 +42,7 @@ export default function Stacks() {
               height={24}
               width={24}
               alt="Arrow right icon"
+              loading="lazy"
             />
           </Link>
         ))}
@@ -61,6 +63,7 @@ export default function Stacks() {
                   height={30}
                   width={30}
                   alt={stack.name}
+                  loading="lazy"
                 />
               </div>
               <div>
@@ -77,6 +80,7 @@ export default function Stacks() {
               height={24}
               width={24}
               alt="Arrow right icon"
+              loading="lazy"
             />
           </Link>
         ))}

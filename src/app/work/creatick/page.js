@@ -83,6 +83,11 @@ export default function Creatick() {
             height={572}
             width={1100}
             alt="Creatick Website Redesign"
+            loading="eager"
+            priority
+            placeholder="blur"
+            blurDataURL={"/assets/portfolio-images/creatick/hero-image.svg"}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -177,6 +182,12 @@ export default function Creatick() {
               height={612}
               width={1200}
               alt="Information Architecture"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={
+                "/assets/portfolio-images/creatick/information-architecture.svg"
+              }
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 */}
@@ -186,6 +197,10 @@ export default function Creatick() {
               height={612}
               width={1200}
               alt="Moodboard"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/creatick/moodboard.png"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -239,6 +254,10 @@ export default function Creatick() {
               height={612}
               width={1200}
               alt="Roadmap"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/creatick/roadmap.jpg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 */}
@@ -249,6 +268,10 @@ export default function Creatick() {
               width={1200}
               alt="Workspace"
               className="rounded-2xl"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/creatick/workspace.jpg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
@@ -274,6 +297,10 @@ export default function Creatick() {
               height={612}
               width={1200}
               alt="Homepage"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/creatick/design-1.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
           {/* Image 2 & 3 */}
@@ -285,6 +312,10 @@ export default function Creatick() {
                 height={612}
                 width={1200}
                 alt="Services"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/creatick/design-2.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
             {/* Image 3 */}
@@ -294,6 +325,10 @@ export default function Creatick() {
                 height={612}
                 width={1200}
                 alt="Login Page"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={"/assets/portfolio-images/creatick/design-3.svg"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
             </div>
           </div>
@@ -304,6 +339,10 @@ export default function Creatick() {
               height={612}
               width={1200}
               alt="Services"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={"/assets/portfolio-images/creatick/design-4.svg"}
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
           </div>
         </div>
