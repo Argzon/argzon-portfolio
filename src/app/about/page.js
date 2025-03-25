@@ -31,16 +31,12 @@ export default function AboutMe() {
   return (
     <div className="flex flex-col gap-[150px] lg:gap-[200px]">
       {/* Header */}
-      <div className="px-10 lg:px-0 h-full pb-10">
-        <div className="pt-10 flex flex-col justify-between h-full">
-          <div className="flex justify-center min-w-full">
-            <Navigation />
-          </div>
-        </div>
+      <div className="flex justify-center min-w-full fixed z-[100] px-10 lg:px-0 pt-10">
+        <Navigation />
       </div>
 
       {/* Who am I? */}
-      <div className="max-w-7xl w-full mx-auto flex flex-col gap-8 px-4 md:px-20">
+      <div className="max-w-7xl w-full mx-auto flex flex-col gap-8 px-4 md:px-20 mt-[240px] lg:mt-[240px]">
         <h3>Who am I?</h3>
         <TextEffect preset="fade-in-blur" speedReveal={3.1} speedSegment={0.3}>
           Accomplished UI/UX designer with 12+ years of experience crafting

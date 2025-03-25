@@ -19,16 +19,12 @@ export default function Work() {
   return (
     <div className="flex flex-col gap-[150px] lg:gap-[200px]">
       {/* Header */}
-      <div className="px-10 lg:px-0 h-full pb-10">
-        <div className="pt-10 flex flex-col justify-between h-full">
-          <div className="flex justify-center min-w-full">
-            <Navigation />
-          </div>
-        </div>
+      <div className="flex justify-center min-w-full fixed z-[100] px-10 lg:px-0 pt-10">
+        <Navigation />
       </div>
 
       {/* Portfolio*/}
-      <div className="max-w-7xl w-full mx-auto flex flex-col gap-16 px-4 md:px-10 lg:px-0">
+      <div className="max-w-7xl w-full mx-auto flex flex-col gap-16 px-4 md:px-10 lg:px-0 mt-[240px] lg:mt-[240px]">
         <div className="flex flex-col gap-4 max-w-[857px]">
           <div className="flex flex-col gap-2">
             <p>Portfolio</p>

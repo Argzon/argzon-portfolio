@@ -30,44 +30,44 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-[150px] lg:gap-[200px]">
       {/* Header */}
+      <div className="flex justify-center items-center min-w-full fixed z-[100] px-10 lg:px-0 pt-10">
+        <Navigation />
+      </div>
+      {/* Header */}
       <AuroraBackground>
-        <div className="px-10 lg:px-0 h-full pb-10">
-          <FollowerPointerCard title={"Argzon Haziraj"}>
-            <div className="pt-10 flex flex-col justify-between h-full">
-              <div className="flex justify-center min-w-full">
-                <Navigation />
-              </div>
-              <h1 className="text-center text-[64px] md:text-8xl lg:text-9xl">
-                Delighting humans{" "}
-                <span className="inline-block">
-                  thr
-                  <span className="inline">
-                    <Image
-                      src="/assets/ArgiPic.png"
-                      height={75}
-                      width={75}
-                      alt="Argi"
-                      className="inline rounded-full hover:-mt-2 border-4 border-white-300 transition-all duration-1200"
-                      priority={true}
-                      loading="eager"
-                    />
-                  </span>
-                  ugh
-                </span>{" "}
-                design
-              </h1>
-              <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-80 items-start">
-                <p>
-                  Building websites & apps for immersive digital experiences.
-                </p>
-                <div className="flex items-center gap-2.5 shrink-0">
-                  <div className="h-2.5 w-2.5 rounded-full bg-green-300 animate-bounce"></div>
-                  <p>Working remotely</p>
-                </div>
+        <FollowerPointerCard title={"Argzon Haziraj"}>
+          <div className="pt-10 px-4 lg:px-0 flex flex-col justify-between h-full">
+            <div className="flex justify-center min-w-full">
+              <span></span>
+            </div>
+            <h1 className="text-center text-[64px] md:text-8xl lg:text-9xl">
+              Delighting humans{" "}
+              <span className="inline-block">
+                thr
+                <span className="inline">
+                  <Image
+                    src="/assets/ArgiPic.png"
+                    height={75}
+                    width={75}
+                    alt="Argi"
+                    className="inline rounded-full hover:-mt-2 border-4 border-white-300 transition-all duration-1200"
+                    priority={true}
+                    loading="eager"
+                  />
+                </span>
+                ugh
+              </span>{" "}
+              design
+            </h1>
+            <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-80 items-start">
+              <p>Building websites & apps for immersive digital experiences.</p>
+              <div className="flex items-center gap-2.5 shrink-0">
+                <div className="h-2.5 w-2.5 rounded-full bg-green-300 animate-bounce"></div>
+                <p>Working remotely</p>
               </div>
             </div>
-          </FollowerPointerCard>
-        </div>
+          </div>
+        </FollowerPointerCard>
       </AuroraBackground>
 
       {/* About me */}

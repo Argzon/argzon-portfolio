@@ -24,33 +24,34 @@ export default function Cryptico() {
   return (
     <div className="flex flex-col gap-[150px] md:gap-[200px]">
       {/* Header */}
-      <div className="flex justify-center lg:justify-between items-center max-w-7xl w-full mx-auto pt-10 px-4 md:px-0">
-        <Link
-          href="/"
-          className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
-        >
-          <Image
-            src="/assets/icons/arrow-left-project.svg"
-            height={16}
-            width={16}
-            alt="Go Home"
-          />
-          Go Home
-        </Link>
-        <Navigation />
-
-        <Link
-          href="/work"
-          className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
-        >
-          Next Project
-          <Image
-            src="/assets/icons/arrow-right-project.svg"
-            height={16}
-            width={16}
-            alt="Next Project"
-          />
-        </Link>
+      <div className="flex items-center justify-center pt-10">
+        <div className="flex justify-center lg:justify-between items-center max-w-7xl w-full mx-auto fixed z-[100] px-10 lg:px-0 pt-10">
+          <Link
+            href="/"
+            className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
+          >
+            <Image
+              src="/assets/icons/arrow-left-project.svg"
+              height={16}
+              width={16}
+              alt="Go Home"
+            />
+            Go Home
+          </Link>
+          <Navigation />
+          <Link
+            href="/work"
+            className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
+          >
+            Next Project
+            <Image
+              src="/assets/icons/arrow-right-project.svg"
+              height={16}
+              width={16}
+              alt="Next Project"
+            />
+          </Link>
+        </div>
       </div>
 
       {/* Hero */}
