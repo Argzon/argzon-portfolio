@@ -12,11 +12,50 @@ import UserPersona1 from "./sections/user-personas/user-persona-1";
 import UserPersona2 from "./sections/user-personas/user-persona-2";
 import ReactPlayer from "react-player";
 import FloatingNavigation from "@/components/FloatingNavigation/page";
+import { useTransitionRouter } from "next-view-transitions";
 
 export default function Krado() {
   const [mounted, setMounted] = useState(false);
   const [activeSection, setActiveSection] = useState("introduction");
   const [showFloatingNav, setShowFloatingNav] = useState(false);
+  const router = useTransitionRouter();
+  function slideInOut() {
+    document.documentElement.animate(
+      [
+        {
+          opacity: 1,
+          transform: "translateY(0)",
+        },
+        {
+          opacity: 0.2,
+          transform: "translateY(-35%)",
+        },
+      ],
+      {
+        duration: 1500,
+        easing: "cubic-bezier(0.87, 0, 0.13, 1)",
+        fill: "forwards",
+        pseudoElement: "::view-transition-old(root)",
+      }
+    );
+
+    document.documentElement.animate(
+      [
+        {
+          clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)",
+        },
+        {
+          clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+        },
+      ],
+      {
+        duration: 1500,
+        easing: "cubic-bezier(0.87, 0, 0.13, 1)",
+        fill: "forwards",
+        pseudoElement: "::view-transition-new(root)",
+      }
+    );
+  }
 
   const sections = useMemo(
     () => [
@@ -95,6 +134,12 @@ export default function Krado() {
           <div className="flex justify-center lg:justify-between items-center max-w-7xl w-full mx-auto fixed z-[100] px-10 lg:px-0 pt-10">
             <Link
               href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                router.push("/", {
+                  onTransitionReady: slideInOut,
+                });
+              }}
               className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
             >
               <Image
@@ -106,8 +151,14 @@ export default function Krado() {
               Go Home
             </Link>
             <Navigation />
-            <Link
+            <a
               href="/work/nelta"
+              onClick={(e) => {
+                e.preventDefault();
+                router.push("/work/nelta", {
+                  onTransitionReady: slideInOut,
+                });
+              }}
               className="label text-black-100 border border-white-300 dark:border-black-300 px-4 py-3 rounded-full hidden lg:flex flex-row gap-1 shrink-0 hover:text-black-200 dark:hover:text-white-200 hover:border-white-400 dark:hover:border-black-400 hover:bg-white-200 dark:hover:bg-black-400 transition-all duration-300"
             >
               Next Project
@@ -117,7 +168,7 @@ export default function Krado() {
                 width={16}
                 alt="Next Project"
               />
-            </Link>
+            </a>
           </div>
         </div>
         {/* Hero */}

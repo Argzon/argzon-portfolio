@@ -13,9 +13,48 @@ import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import Testimonials from "./sections/testimonials/page";
 import Stacks from "./sections/stacks/page";
 import Portfolio from "./sections/portfolio";
+import { useTransitionRouter } from "next-view-transitions";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
+  const router = useTransitionRouter();
+  function slideInOut() {
+    document.documentElement.animate(
+      [
+        {
+          opacity: 1,
+          transform: "translateY(0)",
+        },
+        {
+          opacity: 0.2,
+          transform: "translateY(-35%)",
+        },
+      ],
+      {
+        duration: 1500,
+        easing: "cubic-bezier(0.87, 0, 0.13, 1)",
+        fill: "forwards",
+        pseudoElement: "::view-transition-old(root)",
+      }
+    );
+
+    document.documentElement.animate(
+      [
+        {
+          clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)",
+        },
+        {
+          clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+        },
+      ],
+      {
+        duration: 1500,
+        easing: "cubic-bezier(0.87, 0, 0.13, 1)",
+        fill: "forwards",
+        pseudoElement: "::view-transition-new(root)",
+      }
+    );
+  }
 
   const [mounted, setMounted] = useState(false);
 
@@ -86,9 +125,14 @@ export default function Home() {
         </TextEffect>
 
         <Magnet padding={100} disabled={false} magnetStrength={70}>
-          <Link
+          <a
             href="/about"
-            scroll={false}
+            onClick={(e) => {
+              e.preventDefault();
+              router.push("/about", {
+                onTransitionReady: slideInOut,
+              });
+            }}
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
             Read more about me
@@ -112,7 +156,7 @@ export default function Home() {
                 loading="eager"
               />
             </div>
-          </Link>
+          </a>
         </Magnet>
       </div>
 
@@ -216,9 +260,14 @@ export default function Home() {
         </div>
         <Portfolio />
         <Magnet padding={100} disabled={false} magnetStrength={70}>
-          <Link
+          <a
             href="/work"
-            scroll={false}
+            onClick={(e) => {
+              e.preventDefault();
+              router.push("/work", {
+                onTransitionReady: slideInOut,
+              });
+            }}
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
             View all case studies
@@ -242,7 +291,7 @@ export default function Home() {
                 loading="eager"
               />
             </div>
-          </Link>
+          </a>
         </Magnet>
       </div>
 
