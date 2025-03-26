@@ -1,0 +1,46 @@
+ {
+ "stacks": [
+        {
+            "id": 1,
+            "name": "Figma",
+            "description": "Interface Design Tool",
+            "icon": "/assets/icons/Figma.png",
+            "link": "https://figma.com"
+        },
+        {
+            "id": 2,
+            "name": "NextJs",
+            "description": "Development Language",
+            "icon": "/assets/icons/Next.png",
+            "link": "https://nextjs.org"
+        },
+        {
+            "id": 3,
+            "name": "Slack",
+            "description": "Communication Tool",
+            "icon": "/assets/icons/Slack.png",
+            "link": "https://slack.com"
+        },
+        {
+            "id": 4,
+            "name": "Notion",
+            "description": "Productivity Tool",
+            "icon": "/assets/icons/Notion.png",
+            "link": "https://notion.com"
+        },
+        {
+            "id": 5,
+            "name": "WebFlow",
+            "description": "No Code Design Tool",
+            "icon": "/assets/icons/WebFlow.png",
+            "link": "https://webflow.com"
+        },
+        {
+            "id": 6,
+            "name": "Jira",
+            "description": "Productivity Tool",
+            "icon": "/assets/icons/Jira.png",
+            "link": "https://jira.com"
+        }
+    ]
+}

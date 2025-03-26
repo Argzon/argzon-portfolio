@@ -1,0 +1,32 @@
+{
+    "portfolio": [
+           {
+               "id": 1,
+               "name": "Krado",
+               "workDone": ["Web Design", "Animation", "Wireframe"],
+               "image": "/assets/portfolio-images/main-images/Krado-Mockup.png",
+               "link": "/work/krado"
+           },
+           {
+            "id": 2,
+            "name": "Cryptico",
+            "workDone": ["Product Design", "UI/UX Design", "Wireframe"],
+            "image": "/assets/portfolio-images/main-images/Cryptico-Mockup.png",
+            "link": "/work/cryptico"
+        },
+        {
+            "id": 3,
+            "name": "Coherent",
+            "workDone": ["UI/UX Design", "Animation", "Wireframe"],
+            "image": "/assets/portfolio-images/main-images/Coherent-Mockup.png",
+            "link": "/work/coherent"
+        },
+        {
+            "id": 4,
+            "name": "Creatick",
+            "workDone": ["Product Design", "UI/UX Design", "Wireframe"],
+            "image": "/assets/portfolio-images/main-images/Creatick-Mockup.png",
+            "link": "/work/creatick"
+        }
+       ]
+   }
