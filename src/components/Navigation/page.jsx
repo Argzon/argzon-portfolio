@@ -80,40 +80,104 @@ export default function Navigation() {
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex flex-col items-center justify-center h-full gap-8">
-          <Link
-            href="/"
-            onClick={() => setIsMenuOpen(false)}
-            className="w-full text-center"
-          >
-            <p className="text-2xl font-medium hover:text-blue-300 transition-colors duration-300">
-              Home
-            </p>
-          </Link>
-          <Link
-            href="/about"
-            onClick={() => setIsMenuOpen(false)}
-            className="w-full text-center"
-          >
-            <p className="text-2xl font-medium hover:text-blue-300 transition-colors duration-300">
-              About me
-            </p>
-          </Link>
-          <Link
-            href="/work"
-            onClick={() => setIsMenuOpen(false)}
-            className="w-full text-center"
-          >
-            <p className="text-2xl font-medium hover:text-blue-300 transition-colors duration-300">
-              Work
-            </p>
-          </Link>
+        <div className="flex flex-col justify-between h-full gap-">
+          <div className="flex flex-col px-8 items-center justify-center h-full gap-8">
+            <Link
+              href="/"
+              onClick={() => setIsMenuOpen(false)}
+              className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
+            >
+              <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
+                Home
+              </p>
+              {/* Show the arrow icon of Light Mode */}
+              <div className="inline-block dark:hidden">
+                <Image
+                  src={"/assets/icons/arrow-right-dark.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+              {/* Show the arrow icon of Dark Mode */}
+              <div className="hidden dark:inline-block">
+                <Image
+                  src={"/assets/icons/arrow-right-light.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setIsMenuOpen(false)}
+              className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
+            >
+              <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
+                About me
+              </p>
+              {/* Show the arrow icon of Light Mode */}
+              <div className="inline-block dark:hidden">
+                <Image
+                  src={"/assets/icons/arrow-right-dark.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+              {/* Show the arrow icon of Dark Mode */}
+              <div className="hidden dark:inline-block">
+                <Image
+                  src={"/assets/icons/arrow-right-light.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
+            <Link
+              href="/work"
+              onClick={() => setIsMenuOpen(false)}
+              className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
+            >
+              <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
+                Work
+              </p>
+              {/* Show the arrow icon of Light Mode */}
+              <div className="inline-block dark:hidden">
+                <Image
+                  src={"/assets/icons/arrow-right-dark.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+              {/* Show the arrow icon of Dark Mode */}
+              <div className="hidden dark:inline-block">
+                <Image
+                  src={"/assets/icons/arrow-right-light.svg"}
+                  height={24}
+                  width={24}
+                  alt="Arrow right icon"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
+          </div>
           <Link
             href="#"
             onClick={() => setIsMenuOpen(false)}
-            className="brand-default reverse flex px-6 py-3 rounded-full hover:bg-blue-400 dark:hover:bg-blue-300 transition-colors duration-300"
+            className="w-full text-center"
           >
-            <p className="reverse">Let's talk</p>
+            <p className="text-4xl uppercase font-archiv font-medium transition-colors duration-300 brand-default reverse py-8">
+              Let's talk
+            </p>
           </Link>
         </div>
       </div>
