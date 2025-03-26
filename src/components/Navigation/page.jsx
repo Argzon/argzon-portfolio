@@ -167,7 +167,7 @@ export default function Navigation() {
               href="/"
               onClick={(e) => {
                 e.preventDefault();
-                setIsMenuOpen(false);
+                // setIsMenuOpen(false);
                 router.push("/", {
                   onTransitionReady: slideInOut,
                 });
@@ -202,7 +202,7 @@ export default function Navigation() {
               href="/about"
               onClick={(e) => {
                 e.preventDefault();
-                setIsMenuOpen(false);
+                // setIsMenuOpen(false);
                 router.push("/about", {
                   onTransitionReady: slideInOut,
                 });
@@ -237,7 +237,7 @@ export default function Navigation() {
               href="/work"
               onClick={(e) => {
                 e.preventDefault();
-                setIsMenuOpen(false);
+                // setIsMenuOpen(false);
                 router.push("/work", {
                   onTransitionReady: slideInOut,
                 });
