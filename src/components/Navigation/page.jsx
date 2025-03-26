@@ -8,7 +8,11 @@ export default function Navigation() {
     <>
       <div className="flex justify-between items-center max-w-[728px] w-full bg-white-200 dark:bg-black-500 rounded-full p-2 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 z-20">
         {/* Logo */}
-        <Link href="/" className="flex flex-row items-center gap-2 select-none">
+        <Link
+          href="/"
+          scroll={false}
+          className="flex flex-row items-center gap-2 select-none"
+        >
           <Image
             src={"/assets/ArgiProfilePic.png"}
             width={40}
@@ -28,21 +32,21 @@ export default function Navigation() {
         </Link>
         <ul className="hidden md:flex items-center">
           <li>
-            <Link href="/">
+            <Link href="/" scroll={false}>
               <p className="h-full rounded-2xl hover:bg-white-300/50 dark:hover:bg-black-400/50 transition-colors duration-300 p-3">
                 Home
               </p>
             </Link>
           </li>
           <li>
-            <Link href="/about">
+            <Link href="/about" scroll={false}>
               <p className="h-full rounded-2xl hover:bg-white-300/50 dark:hover:bg-black-400/50 transition-colors duration-300 p-3">
                 About me
               </p>
             </Link>
           </li>
           <li>
-            <Link href="/work">
+            <Link href="/work" scroll={false}>
               <p className="h-full rounded-2xl hover:bg-white-300/50 dark:hover:bg-black-400/50 transition-colors duration-300 p-3">
                 Work
               </p>
@@ -51,6 +55,7 @@ export default function Navigation() {
           <li>
             <Link
               href="#"
+              scroll={false}
               className="brand-default reverse flex px-6 py-3 rounded-full hover:bg-blue-400 dark:hover:bg-blue-300 transition-colors duration-300"
             >
               <p className="reverse">Let's talk</p>
@@ -84,6 +89,7 @@ export default function Navigation() {
           <div className="flex flex-col px-8 items-center justify-center h-full gap-8">
             <Link
               href="/"
+              scroll={false}
               onClick={() => setIsMenuOpen(false)}
               className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
             >
@@ -113,6 +119,7 @@ export default function Navigation() {
             </Link>
             <Link
               href="/about"
+              scroll={false}
               onClick={() => setIsMenuOpen(false)}
               className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
             >
@@ -142,6 +149,7 @@ export default function Navigation() {
             </Link>
             <Link
               href="/work"
+              scroll={false}
               onClick={() => setIsMenuOpen(false)}
               className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
             >
@@ -172,6 +180,7 @@ export default function Navigation() {
           </div>
           <Link
             href="#"
+            scroll={false}
             onClick={() => setIsMenuOpen(false)}
             className="w-full text-center"
           >
