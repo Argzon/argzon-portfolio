@@ -1,4 +1,3 @@
-import { ThemeToggle } from "@/components/ThemeToggle/page";
 import Link from "next/link";
 
 export const metadata = {

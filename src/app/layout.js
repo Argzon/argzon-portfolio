@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ViewTransitions } from "next-view-transitions";
-import { View } from "lucide-react";
 import ReactLenis from "@studio-freight/react-lenis";
 import { PostHogProvider } from "../components/PostHogProvider";
 

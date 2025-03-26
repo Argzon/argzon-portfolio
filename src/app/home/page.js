@@ -1,10 +1,8 @@
 "use client";
 import Footer from "@/components/Footer/page";
 import Navigation from "@/components/Navigation/page";
-import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import Link from "next/link";
 import Image from "next/image";
 import Magnet from "@/components/ui/magnet";
 import { FollowerPointerCard } from "@/components/ui/following-pointer";
@@ -16,7 +14,6 @@ import Portfolio from "./sections/portfolio";
 import { useTransitionRouter } from "next-view-transitions";
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
   const router = useTransitionRouter();
   function slideInOut() {
     document.documentElement.animate(

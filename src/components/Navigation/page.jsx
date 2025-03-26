@@ -161,13 +161,12 @@ export default function Navigation() {
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex flex-col justify-between h-full gap-">
+        <div className="flex flex-col justify-between h-full">
           <div className="flex flex-col px-8 items-center justify-center h-full gap-8">
             <a
               href="/"
               onClick={(e) => {
                 e.preventDefault();
-                // setIsMenuOpen(false);
                 router.push("/", {
                   onTransitionReady: slideInOut,
                 });
@@ -202,7 +201,6 @@ export default function Navigation() {
               href="/about"
               onClick={(e) => {
                 e.preventDefault();
-                // setIsMenuOpen(false);
                 router.push("/about", {
                   onTransitionReady: slideInOut,
                 });
@@ -237,7 +235,6 @@ export default function Navigation() {
               href="/work"
               onClick={(e) => {
                 e.preventDefault();
-                // setIsMenuOpen(false);
                 router.push("/work", {
                   onTransitionReady: slideInOut,
                 });
@@ -269,16 +266,15 @@ export default function Navigation() {
               </div>
             </a>
           </div>
-          <Link
+          <a
             href="#"
-            scroll={false}
             onClick={() => setIsMenuOpen(false)}
             className="w-full text-center"
           >
             <p className="text-4xl uppercase font-archiv font-medium transition-colors duration-300 brand-default reverse py-8">
               Let's talk
             </p>
-          </Link>
+          </a>
         </div>
       </div>
     </>
