@@ -91,18 +91,27 @@ export default function Home() {
             scroll={false}
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
-            Read more about me{" "}
-            <Image
-              src={
-                theme === "dark"
-                  ? "/assets/icons/arrow-right-dark.svg"
-                  : "/assets/icons/arrow-right-light.svg"
-              }
-              height={24}
-              width={24}
-              alt="Arrow right icon"
-              loading="eager"
-            />
+            Read more about me
+            {/* Show the arrow icon of Light Mode */}
+            <div className="inline-block dark:hidden">
+              <Image
+                src={"/assets/icons/arrow-right-light.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="eager"
+              />
+            </div>
+            {/* Show the arrow icon of Dark Mode */}
+            <div className="hidden dark:inline-block">
+              <Image
+                src={"/assets/icons/arrow-right-dark.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="eager"
+              />
+            </div>
           </Link>
         </Magnet>
       </div>
@@ -213,18 +222,26 @@ export default function Home() {
             className="reverse bg-black-600 hover:bg-black-500 dark:bg-white-100 dark:hover:bg-white-300 p-8 rounded-full w-fit flex items-center gap-2.5 hover:gap-3 subtitle transition-all duration-300"
           >
             View all case studies
-            <Image
-              src={
-                theme === "dark"
-                  ? "/assets/icons/arrow-right-dark.svg"
-                  : "/assets/icons/arrow-right-light.svg"
-              }
-              height={24}
-              width={24}
-              alt="Arrow right icon"
-              priority={true}
-              loading="eager"
-            />
+            {/* Show the arrow icon of Light Mode */}
+            <div className="inline-block dark:hidden">
+              <Image
+                src={"/assets/icons/arrow-right-light.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="eager"
+              />
+            </div>
+            {/* Show the arrow icon of Dark Mode */}
+            <div className="hidden dark:inline-block">
+              <Image
+                src={"/assets/icons/arrow-right-dark.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="eager"
+              />
+            </div>
           </Link>
         </Magnet>
       </div>

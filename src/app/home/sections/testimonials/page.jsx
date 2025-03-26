@@ -16,14 +16,28 @@ export default function Testimonials() {
             className="border border-white-300 dark:border-black-400 rounded-2xl px-[35px] py-[50px]"
           >
             <div className="block lg:hidden mb-12">
-              <Image
-                src={theme === "dark" ? item.logo.dark : item.logo.light}
-                alt={item.company}
-                width={150}
-                height={50}
-                className="object-contain"
-                loading="lazy"
-              />
+              {/* Show logo on Light Mode */}
+              <div className="inline-block dark:hidden">
+                <Image
+                  src={item.logo.light}
+                  alt={item.company}
+                  width={150}
+                  height={50}
+                  className="object-contain"
+                  loading="lazy"
+                />
+              </div>
+              {/* Show logo on Dark Mode */}
+              <div className="hidden dark:inline-block">
+                <Image
+                  src={item.logo.dark}
+                  alt={item.company}
+                  width={150}
+                  height={50}
+                  className="object-contain"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <p className="text-lg mb-12 whitespace-pre-line">
               "{item.testimonial}"
@@ -50,14 +64,28 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="hidden lg:block">
-                <Image
-                  src={theme === "dark" ? item.logo.dark : item.logo.light}
-                  alt={item.company}
-                  width={150}
-                  height={50}
-                  className="object-contain"
-                  loading="lazy"
-                />
+                {/* Show logo on Light Mode */}
+                <div className="inline-block dark:hidden">
+                  <Image
+                    src={item.logo.light}
+                    alt={item.company}
+                    width={150}
+                    height={50}
+                    className="object-contain"
+                    loading="lazy"
+                  />
+                </div>
+                {/* Show logo on Dark Mode */}
+                <div className="hidden dark:inline-block">
+                  <Image
+                    src={item.logo.dark}
+                    alt={item.company}
+                    width={150}
+                    height={50}
+                    className="object-contain"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -71,14 +99,28 @@ export default function Testimonials() {
             className="border border-white-300 dark:border-black-400 rounded-2xl px-[35px] py-[50px]"
           >
             <div className="block lg:hidden mb-12">
-              <Image
-                src={theme === "dark" ? item.logo.dark : item.logo.light}
-                alt={item.company}
-                width={150}
-                height={50}
-                className="object-contain"
-                loading="lazy"
-              />
+              {/* Show logo on Light Mode */}
+              <div className="inline-block dark:hidden">
+                <Image
+                  src={item.logo.light}
+                  alt={item.company}
+                  width={150}
+                  height={50}
+                  className="object-contain"
+                  loading="lazy"
+                />
+              </div>
+              {/* Show logo on Dark Mode */}
+              <div className="hidden dark:inline-block">
+                <Image
+                  src={item.logo.dark}
+                  alt={item.company}
+                  width={150}
+                  height={50}
+                  className="object-contain"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <p className="text-lg mb-8 whitespace-pre-line">
               "{item.testimonial}"
@@ -105,14 +147,28 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="hidden lg:block">
-                <Image
-                  src={theme === "dark" ? item.logo.dark : item.logo.light}
-                  alt={item.company}
-                  width={150}
-                  height={50}
-                  className="object-contain"
-                  loading="lazy"
-                />
+                {/* Show logo on Light Mode */}
+                <div className="inline-block dark:hidden">
+                  <Image
+                    src={item.logo.light}
+                    alt={item.company}
+                    width={150}
+                    height={50}
+                    className="object-contain"
+                    loading="lazy"
+                  />
+                </div>
+                {/* Show logo on Dark Mode */}
+                <div className="hidden dark:inline-block">
+                  <Image
+                    src={item.logo.dark}
+                    alt={item.company}
+                    width={150}
+                    height={50}
+                    className="object-contain"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
           </div>

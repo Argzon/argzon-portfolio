@@ -33,17 +33,26 @@ export default function Stacks() {
                 <p className="subtitle">{stack.description}</p>
               </div>
             </div>
-            <Image
-              src={
-                theme === "dark"
-                  ? "/assets/icons/arrow-right-light.svg"
-                  : "/assets/icons/arrow-right-dark.svg"
-              }
-              height={24}
-              width={24}
-              alt="Arrow right icon"
-              loading="lazy"
-            />
+            {/* Show the arrow icon of Light Mode */}
+            <div className="inline-block dark:hidden">
+              <Image
+                src={"/assets/icons/arrow-right-dark.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="lazy"
+              />
+            </div>
+            {/* Show the arrow icon of Dark Mode */}
+            <div className="hidden dark:inline-block">
+              <Image
+                src={"/assets/icons/arrow-right-light.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="lazy"
+              />
+            </div>
           </Link>
         ))}
       </div>
@@ -71,17 +80,26 @@ export default function Stacks() {
                 <p className="subtitle">{stack.description}</p>
               </div>
             </div>
-            <Image
-              src={
-                theme === "dark"
-                  ? "/assets/icons/arrow-right-light.svg"
-                  : "/assets/icons/arrow-right-dark.svg"
-              }
-              height={24}
-              width={24}
-              alt="Arrow right icon"
-              loading="lazy"
-            />
+            {/* Show the arrow icon of Light Mode */}
+            <div className="inline-block dark:hidden">
+              <Image
+                src={"/assets/icons/arrow-right-dark.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="lazy"
+              />
+            </div>
+            {/* Show the arrow icon of Dark Mode */}
+            <div className="hidden dark:inline-block">
+              <Image
+                src={"/assets/icons/arrow-right-light.svg"}
+                height={24}
+                width={24}
+                alt="Arrow right icon"
+                loading="lazy"
+              />
+            </div>
           </Link>
         ))}
       </div>
