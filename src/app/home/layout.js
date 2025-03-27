@@ -4,7 +4,7 @@ export const metadata = {
   title: "Interface Designer - Argzon Haziraj",
   description: "Building websites & apps for immersive digital experiences.",
   url: "https://argzonhaziraj.com",
-  image: { HomepageOG },
+  image: "/assets/opengraph-images/homepage-og-image.jpg",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -13,7 +13,7 @@ export const metadata = {
     description: "Building websites & apps for immersive digital experiences.",
     images: [
       {
-        url: { HomepageOG },
+        url: "/assets/opengraph-images/homepage-og-image.jpg",
         width: 1200,
         height: 675,
         alt: "Argzon Haziraj - Interface Designer",
