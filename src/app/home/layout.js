@@ -1,16 +1,12 @@
-import HomepageOG from "../../../public/assets/opengraph-images/homepage-og-image.jpg";
-
 export const metadata = {
+  metadataBase: new URL("https://argzonhaziraj.com"),
   title: "Interface Designer - Argzon Haziraj",
   description: "Building websites & apps for immersive digital experiences.",
-  url: "https://argzonhaziraj.com",
-  image: "/assets/opengraph-images/homepage-og-image.jpg",
   openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://argzonhaziraj.com",
     title: "Interface Designer - Argzon Haziraj",
     description: "Building websites & apps for immersive digital experiences.",
+    url: "/",
+    siteName: "Argzon Haziraj",
     images: [
       {
         url: "/assets/opengraph-images/homepage-og-image.jpg",
@@ -19,11 +15,22 @@ export const metadata = {
         alt: "Argzon Haziraj - Interface Designer",
       },
     ],
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    handle: "@Argzon6",
-    site: "@Argzon6",
-    cardType: "summary_large_image",
+    card: "summary_large_image",
+    title: "Interface Designer - Argzon Haziraj",
+    description: "Building websites & apps for immersive digital experiences.",
+    creator: "@Argzon6",
+    images: ["/assets/opengraph-images/homepage-og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
