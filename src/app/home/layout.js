@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: "Interface Designer - Argzon Haziraj",
     description: "Building websites & apps for immersive digital experiences.",
-    url: "/",
+    url: "https://argzonhaziraj.com/",
     siteName: "Argzon Haziraj",
     images: [
       {
