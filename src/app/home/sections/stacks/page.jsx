@@ -2,11 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import stacksData from "../../data/stacks.json";
-import { useTheme } from "next-themes";
 
 export default function Stacks() {
-  const { theme, setTheme } = useTheme();
-
   return (
     <div className="flex flex-col md:flex-row gap-[30px]">
       {/* Left Side */}

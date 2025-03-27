@@ -2,11 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Magnet from "@/components/ui/magnet";
-import { useTheme } from "next-themes";
 
 export default function CTA() {
-  const { theme, setTheme } = useTheme();
-
   return (
     <div className="flex flex-col gap-16 max-w-[844px] w-full mx-auto items-center text-center px-4 md:px-10 lg:px-0">
       <h3>

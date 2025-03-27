@@ -1,11 +1,8 @@
 "use client";
 import testimonialsData from "../../data/testimonials.json";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
 export default function Testimonials() {
-  const { theme } = useTheme();
-
   return (
     <div className="flex flex-col md:flex-row gap-2.5">
       {/* Left Side */}
