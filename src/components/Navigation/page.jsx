@@ -1,8 +1,8 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { useTransitionRouter } from "next-view-transitions";
+import { PopupButton } from "@typeform/embed-react";
 
 export default function Navigation() {
   const router = useTransitionRouter();
@@ -124,18 +124,15 @@ export default function Navigation() {
             </a>
           </li>
           <li>
-            <a
-              onClick={(e) => {
-                e.preventDefault();
-                router.push("#", {
-                  onTransitionReady: slideInOut,
-                });
-              }}
-              href="#"
-              className="brand-default reverse flex px-6 py-3 rounded-full hover:bg-blue-400 dark:hover:bg-blue-300 transition-colors duration-300"
+            <PopupButton
+              id="DPsiGasZ"
+              className="reverse brand-default reverse flex px-6 py-3 rounded-full hover:bg-blue-400 dark:hover:bg-blue-300 transition-colors duration-300"
+              height={500}
+              width={900}
+              opacity={95}
             >
-              <p className="reverse">Let's talk</p>
-            </a>
+              Let's talk
+            </PopupButton>
           </li>
         </ul>
         {/* Mobile menu button */}
@@ -266,15 +263,15 @@ export default function Navigation() {
               </div>
             </a>
           </div>
-          <a
-            href="#"
-            onClick={() => setIsMenuOpen(false)}
-            className="w-full text-center"
+          <PopupButton
+            id="DPsiGasZ"
+            className="text-4xl uppercase font-archiv font-medium transition-colors duration-300 brand-default reverse py-8"
+            height={500}
+            width={900}
+            opacity={95}
           >
-            <p className="text-4xl uppercase font-archiv font-medium transition-colors duration-300 brand-default reverse py-8">
-              Let's talk
-            </p>
-          </a>
+            Let's talk
+          </PopupButton>
         </div>
       </div>
     </>

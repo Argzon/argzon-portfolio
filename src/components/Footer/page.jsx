@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+import { PopupButton } from "@typeform/embed-react";
 
 export default function Footer() {
   const { theme, setTheme } = useTheme();
@@ -18,12 +19,15 @@ export default function Footer() {
               for your project, email me—I'm open to new opportunities.
             </p>
           </div>
-          <Link
-            href="#"
+          <PopupButton
+            id="DPsiGasZ"
             className="reverse bg-black-500 hover:bg-black-400 dark:bg-white-200 dark:hover:bg-white-300 transition-all duration-300 p-8 rounded-full h-fit w-fit subtitle shrink-0"
+            height={500}
+            width={900}
+            opacity={95}
           >
             Hire Me Now!
-          </Link>
+          </PopupButton>
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-between items-center pt-8 pb-14 border-t border-black-500 dark:border-white-200">
           <div className="flex order-3 md:order-1 flex-row items-center gap-2">
