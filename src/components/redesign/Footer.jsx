@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
             <div className="text-sm text-slate-500 space-y-2">
               <p className="font-bold text-slate-900">argzon01@gmail.com</p>
-              <p>Pristina, Kosovo</p>
+              <p>Peja, Kosovo</p>
             </div>
           </div>
 
