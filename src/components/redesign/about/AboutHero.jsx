@@ -66,7 +66,7 @@ export default function AboutHero() {
         <div className="lg:w-5/12 w-full">
           <div className="hero-image relative aspect-[4/5] rounded-[2rem] overflow-hidden">
             <Image
-              src="/assets/ArgiProfilePic.png" // Using the same profile pic from footer as standard
+              src="/assets/Argzon.jpg" // Using the same profile pic from footer as standard
               alt="Argzon Haziraj"
               fill
               className="object-cover"
