@@ -194,74 +194,76 @@ export default function Navigation() {
                 />
               </div>
             </a>
-            <a
-              href="/about"
-              onClick={(e) => {
-                e.preventDefault();
-                router.push("/about", {
-                  onTransitionReady: slideInOut,
-                });
-              }}
-              className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
-            >
-              <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
-                About me
-              </p>
-              {/* Show the arrow icon of Light Mode */}
-              <div className="inline-block dark:hidden">
-                <Image
-                  src={"/assets/icons/arrow-right-dark.svg"}
-                  height={24}
-                  width={24}
-                  alt="Arrow right icon"
-                  loading="lazy"
-                />
-              </div>
-              {/* Show the arrow icon of Dark Mode */}
-              <div className="hidden dark:inline-block">
-                <Image
-                  src={"/assets/icons/arrow-right-light.svg"}
-                  height={24}
-                  width={24}
-                  alt="Arrow right icon"
-                  loading="lazy"
-                />
-              </div>
-            </a>
-            <a
-              href="/work"
-              onClick={(e) => {
-                e.preventDefault();
-                router.push("/work", {
-                  onTransitionReady: slideInOut,
-                });
-              }}
-              className="w-full text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
-            >
-              <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
-                Work
-              </p>
-              {/* Show the arrow icon of Light Mode */}
-              <div className="inline-block dark:hidden">
-                <Image
-                  src={"/assets/icons/arrow-right-dark.svg"}
-                  height={24}
-                  width={24}
-                  alt="Arrow right icon"
-                  loading="lazy"
-                />
-              </div>
-              {/* Show the arrow icon of Dark Mode */}
-              <div className="hidden dark:inline-block">
-                <Image
-                  src={"/assets/icons/arrow-right-light.svg"}
-                  height={24}
-                  width={24}
-                  alt="Arrow right icon"
-                  loading="lazy"
-                />
-              </div>
-            </a>
+            <div className="w-full flex gap-4">
+              <a
+                href="/about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  router.push("/about", {
+                    onTransitionReady: slideInOut,
+                  });
+                }}
+                className="flex-1 text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
+              >
+                <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
+                  About me
+                </p>
+                {/* Show the arrow icon of Light Mode */}
+                <div className="inline-block dark:hidden">
+                  <Image
+                    src={"/assets/icons/arrow-right-dark.svg"}
+                    height={24}
+                    width={24}
+                    alt="Arrow right icon"
+                    loading="lazy"
+                  />
+                </div>
+                {/* Show the arrow icon of Dark Mode */}
+                <div className="hidden dark:inline-block">
+                  <Image
+                    src={"/assets/icons/arrow-right-light.svg"}
+                    height={24}
+                    width={24}
+                    alt="Arrow right icon"
+                    loading="lazy"
+                  />
+                </div>
+              </a>
+              <a
+                href="/work"
+                onClick={(e) => {
+                  e.preventDefault();
+                  router.push("/work", {
+                    onTransitionReady: slideInOut,
+                  });
+                }}
+                className="flex-1 text-left bg-white-200 dark:bg-black-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-white-200 dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-50 dark:border-black-500 flex items-center justify-between p-8 rounded-2xl"
+              >
+                <p className="text-2xl font-archiv uppercase font-bold rounded-2xl">
+                  Work
+                </p>
+                {/* Show the arrow icon of Light Mode */}
+                <div className="inline-block dark:hidden">
+                  <Image
+                    src={"/assets/icons/arrow-right-dark.svg"}
+                    height={24}
+                    width={24}
+                    alt="Arrow right icon"
+                    loading="lazy"
+                  />
+                </div>
+                {/* Show the arrow icon of Dark Mode */}
+                <div className="hidden dark:inline-block">
+                  <Image
+                    src={"/assets/icons/arrow-right-light.svg"}
+                    height={24}
+                    width={24}
+                    alt="Arrow right icon"
+                    loading="lazy"
+                  />
+                </div>
+              </a>
+            </div>
           </div>
           <PopupButton
             id="DPsiGasZ"
