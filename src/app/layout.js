@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ViewTransitions } from "next-view-transitions";
 import ReactLenis from "@studio-freight/react-lenis";
 import { PostHogProvider } from "../components/PostHogProvider";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -27,21 +28,12 @@ export default function RootLayout({ children }) {
         </head>
         <body>
           <PostHogProvider>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-              storageKey="portfolio-theme"
-              resolver={(theme, systemTheme) => {
-                if (theme === "system") {
-                  return systemTheme || "light";
-                }
-                return theme;
-              }}
-            >
+            <ThemeProvider attribute="class" forcedTheme="light">
               <main className="bg-surface-primary min-h-screen">
-                <ReactLenis root>{children}</ReactLenis>
+                <ReactLenis root>
+                  <ScrollToTop />
+                  {children}
+                </ReactLenis>
                 <Analytics />
                 <SpeedInsights />
               </main>
