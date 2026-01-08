@@ -28,7 +28,7 @@ export default function Header() {
 
           <Link
             href="/contact"
-            className="group relative bg-slate-900 text-white pl-0 pr-5 md:px-5 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] active:scale-95"
+            className="group relative bg-slate-900 text-white px-0 md:px-5 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 transition-all duration-300 md:hover:scale-105 md:hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] active:scale-95"
           >
             Start Project
             <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
