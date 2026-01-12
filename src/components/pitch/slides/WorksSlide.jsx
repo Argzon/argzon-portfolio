@@ -41,7 +41,7 @@ const projects = [
 
 export default function WorksSlide() {
   return (
-    <div className="h-full flex flex-col justify-center px-4 md:px-10">
+    <div className="min-h-full flex flex-col justify-center px-4 py-24 md:px-10">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

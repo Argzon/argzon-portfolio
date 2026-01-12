@@ -104,7 +104,7 @@ export default function Deck() {
               x: { type: "spring", stiffness: 300, damping: 30 },
               opacity: { duration: 0.2 },
             }}
-            className="w-full h-full flex flex-col justify-center"
+            className="w-full h-full overflow-y-auto overflow-x-hidden no-scrollbar"
           >
             <CurrentSlideComponent isActive={true} />
           </motion.div>

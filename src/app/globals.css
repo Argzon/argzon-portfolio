@@ -161,6 +161,17 @@
   .red-dark {
     @apply bg-red-400 dark:bg-red-300;
   }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
 
 /* page transition */
@@ -193,19 +204,27 @@
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
+  from {
+    opacity: 0;
+  }
 }
 
 @keyframes fade-out {
-  to { opacity: 0; }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes slide-from-bottom {
-  from { transform: translateY(20px); }
+  from {
+    transform: translateY(20px);
+  }
 }
 
 @keyframes slide-to-top {
-  to { transform: translateY(-20px); }
+  to {
+    transform: translateY(-20px);
+  }
 }
 
 ::view-transition-old(root) {

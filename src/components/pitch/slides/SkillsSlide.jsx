@@ -39,7 +39,7 @@ const skillCategories = [
 
 export default function SkillsSlide() {
   return (
-    <div className="h-full flex flex-col justify-center px-4 md:px-20">
+    <div className="min-h-full flex flex-col justify-center px-4 py-24 md:px-20">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

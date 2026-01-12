@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function IntroSlide() {
   return (
-    <div className="flex flex-col items-center text-center justify-center h-full gap-6">
+    <div className="flex flex-col items-center text-center justify-center min-h-full gap-6 px-4 py-20">
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -19,7 +19,7 @@ export default function IntroSlide() {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}
-        className="text-[10vw] md:text-[8vw] font-bold leading-none tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40"
+        className="text-5xl md:text-[8vw] font-bold leading-none tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40"
       >
         Argzon Haziraj
       </motion.h1>

@@ -10,7 +10,7 @@ const stats = [
 
 export default function AboutSlide() {
   return (
-    <div className="h-full flex flex-col justify-center px-4 md:px-20">
+    <div className="min-h-full flex flex-col justify-center px-4 py-24 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <motion.h2

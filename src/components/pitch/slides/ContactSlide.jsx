@@ -6,7 +6,7 @@ import { Link } from "next-view-transitions";
 
 export default function ContactSlide() {
   return (
-    <div className="h-full flex flex-col justify-center items-center px-4 text-center">
+    <div className="min-h-full flex flex-col justify-center items-center px-4 py-24 text-center">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ export default function ContactSlide() {
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.3, type: "spring" }}
-        className="text-[8vw] font-bold leading-none mb-12 tracking-tighter"
+        className="text-5xl md:text-[8vw] font-bold leading-none mb-12 tracking-tighter"
       >
         Let's work together.
       </motion.h2>
