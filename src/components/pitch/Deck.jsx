@@ -7,6 +7,7 @@ import { Link } from "next-view-transitions";
 // Slides
 import IntroSlide from "./slides/IntroSlide";
 import AboutSlide from "./slides/AboutSlide";
+import ExperienceSlide from "./slides/ExperienceSlide";
 import SkillsSlide from "./slides/SkillsSlide";
 import DesignProcessSlide from "./slides/DesignProcessSlide";
 import WorksSlide from "./slides/WorksSlide";
@@ -15,6 +16,7 @@ import ContactSlide from "./slides/ContactSlide";
 const SLIDES = [
   IntroSlide,
   AboutSlide,
+  ExperienceSlide,
   SkillsSlide,
   DesignProcessSlide,
   WorksSlide,
