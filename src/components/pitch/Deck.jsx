@@ -8,10 +8,18 @@ import { Link } from "next-view-transitions";
 import IntroSlide from "./slides/IntroSlide";
 import AboutSlide from "./slides/AboutSlide";
 import SkillsSlide from "./slides/SkillsSlide";
+import DesignProcessSlide from "./slides/DesignProcessSlide";
 import WorksSlide from "./slides/WorksSlide";
 import ContactSlide from "./slides/ContactSlide";
 
-const SLIDES = [IntroSlide, AboutSlide, SkillsSlide, WorksSlide, ContactSlide];
+const SLIDES = [
+  IntroSlide,
+  AboutSlide,
+  SkillsSlide,
+  DesignProcessSlide,
+  WorksSlide,
+  ContactSlide,
+];
 
 export default function Deck() {
   const [currentSlide, setCurrentSlide] = useState(0);
